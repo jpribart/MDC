@@ -1,12 +1,16 @@
 * { margin: 0; padding: 0; }
 
+html, body {
+    height: 100%;
+}
+
 body {
 	font-size: 80%;
 	font-family: 'Roboto', sans-serif;
 }
 
 ::selection {
-	background-color: #77c159;
+	background-color: #24a1fd;
 	color: #ffffff;
 }
 
@@ -31,6 +35,13 @@ button {
 
 .container {
     max-width: 960px;
+    margin: 0 auto;
+}
+
+.fluid-container {
+    position: absolute;
+    left: 60px;
+    right: 60px;
     margin: 0 auto;
 }
 
