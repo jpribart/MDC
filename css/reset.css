@@ -40,8 +40,8 @@ button {
 
 .fluid-container {
     position: absolute;
-    left: 60px;
-    right: 60px;
+    left: 70px;
+    right: 70px;
     margin: 0 auto;
 }
 
@@ -57,4 +57,11 @@ button {
 
 .clearfix {
     *zoom: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .fluid-container {
+    left: 50px;
+    right: 50px;
+}
 }
