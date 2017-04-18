@@ -20,30 +20,61 @@
   </head>
 <body>
   <div id="wrapper">
-    <div id="content" class="cover-image">
-      <!-- <div class="fullscreen-cover"> -->
-        <!-- <div ></div> -->
-      <!-- </div> -->
+    <div id="content">
+      <div class="fullscreen-cover">
+        <div class="cover-image"></div>
+        <div class="container clearfix">
+          <div class="row">
+            <div class="headline center">
+              <h1>Bem vindo <br>ao <span>Museu Digital</span> da <br>Computação</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- content -->
+    <div id="wrapper-nav">
+      <div id="main">
+        <nav id="menu">
+          <ul class="toggle-nav">
+            <li><a href="#">&nbsp&nbspInício</a></li>
+            <li><a href="#">&nbsp&nbspSobre</a></li>
+            <li><a href="#">&nbsp&nbspConheça a equipe</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- wrapper-nav -->
   </div>
   <!-- wrapper -->
   <header>
-      <div class="navbar">
-        <div class="fluid-container clearfix">
-          <div class="fluid-logo">  
-            <a href="#" title="Museu Digital da Computação"><img title="Museu Digital da Computação" alt="[Museu Digital da Computação]" src="images/logo.png" class="logo"/></a>
-          </div>
-          <div class="fluid-menu">
-
-          </div>
+    <div class="navbar">
+      <div class="fluid-container clearfix">
+        <div class="fluid-logo">  
+          <a href="#" title="Museu Digital da Computação"><img title="Museu Digital da Computação" alt="[Museu Digital da Computação]" src="images/logo.png" class="logo"/></a>
+          <div class="toggle-nav btn-responsive"></div>
         </div>
+      </div>
+      
     </div>
   </header>
   <!-- header -->
+  <!-- <div class="fullscreen-menu">
+    <nav id='outracoisa'>
+      <div class="btn-responsive"></div>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Conheça a equipe</a></li>
+          <li><a href="#">Teste</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div> -->
+  <!-- fullscreen-menu -->
   <!-- Scripts -->
-  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>if (!window.jQuery) { document.write('<script src="https://code.jquery.com/jquery-2.1.4.min.js"><\/script>'); }</script>
+  <script src="js/menu.js"></script>
   <script src="js/materialize.min.js"></script>
 </body>
 </html>
