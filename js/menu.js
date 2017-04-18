@@ -15,22 +15,3 @@ $(function(){
     }
   }
 });
-
-$(function() {
-$.fn.menumaker = function() {  
-  return this.each(function() {
-    $(this).find(".btn-responsive").on('click', function(){
-      $(this).toggleClass('menu-opened');
-      var mainmenu = $(this).next('ul');
-    });
-  });
-};
-})(jQuery);
-
-$(function(){
-$(document).ready(function(){
-$("#menu").menumaker({
-   format: "multitoggle"
-});
-});
-})(jQuery);

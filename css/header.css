@@ -60,7 +60,8 @@ header {
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: #12202d;
+	background-color: #142632;
+	background-image: linear-gradient(180deg, rgba(22,27,38,0.1) 0% ,rgba(20,20,38,0.3) 100%);
 	color: #fff;
 
 	display: -webkit-box;
