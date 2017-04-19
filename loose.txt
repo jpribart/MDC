@@ -1,0 +1,3 @@
+--------------------- Pendências ---------------------
+
+1. Identar e Juntar linhas.
