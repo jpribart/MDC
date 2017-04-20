@@ -172,7 +172,7 @@ nav ul li a:hover {
 .headline h1 {
 	color: #ddd;
 	font-weight: 800;
-	font-size: 4.4em;
+	font-size: 4.4vh;
 	line-height: 68px;
 	letter-spacing: 3px;
 	text-align: left;
@@ -186,8 +186,12 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 600px) {
 	.fluid-logo {
-		width: 48%;
+		width: 52%;
 		padding-top: 42px;
+	}
+
+	#menu {
+		width: 205px;
 	}
 }
 

@@ -21,7 +21,7 @@
     <link href="css/Roboto.css" media="all" rel="stylesheet" type="text/css">
   </head>
 <body>
-  <header>
+  <header class="toggle-nav">
     <div class="navbar">
       <div class="fluid-container clearfix">
         <div class="fluid-logo">  
@@ -48,7 +48,7 @@
     <!-- content -->
     <div id="wrapper-nav">
       <div id="main">
-        <nav id="menu">
+        <nav id="menu" class="toggle-nav">
           <ul class="toggle-nav">
             <li><a href="#">&nbsp&nbspInício</a></li>
             <li><a href="#">&nbsp&nbspSobre</a></li>
@@ -67,7 +67,8 @@
     <section class="timeline">
     <div class="container clearfix">
       <ul>
-        <li class="initial"><span class="bin-initial">0</span>
+        <li class="initial"></li>
+        <li><span>0</span>
           <div>
             <h3>Ábaco</h3>
             <h5>Povos Mesopotâmicos</h5>
@@ -75,7 +76,7 @@
             <a class="waves-effect waves-light btn btn-see-more">Leia mais<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
           </div> 
         </li>
-        <li><span class="one">1</span>
+        <li class="off"><span>1</span>
           <div>
             <h3>Máquina Analítica</h3>
             <h5>Charles Babbage</h5>
@@ -83,7 +84,7 @@
             <a class="waves-effect waves-light btn btn-see-more">Leia mais<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
           </div> 
         </li>
-        <li><span class="zero">0</span>
+        <li><span>0</span>
           <div>
             <h3>Ábaco</h3>
             <h5>Povos Mesopotâmicos</h5>
@@ -91,7 +92,7 @@
             <a class="waves-effect waves-light btn btn-see-more">Leia mais<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
           </div> 
         </li>
-        <li><span class="zero">0</span>
+        <li><span>0</span>
           <div>
             <h3>Ábaco</h3>
             <h5>Povos Mesopotâmicos</h5>
@@ -99,7 +100,7 @@
             <a class="waves-effect waves-light btn btn-see-more">Leia mais<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
           </div> 
         </li>
-        <li><span class="one">1</span>
+        <li class="off"><span>1</span>
           <div>
             <h3>Máquina Analítica</h3>
             <h5>Charles Babbage</h5>
@@ -107,7 +108,7 @@
             <a class="waves-effect waves-light btn btn-see-more">Leia mais<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
           </div> 
         </li>
-        <li><span class="one">1</span>
+        <li class="off"><span>1</span>
           <div>
             <h3>Máquina Analítica</h3>
             <h5>Charles Babbage</h5>
@@ -115,7 +116,23 @@
             <a class="waves-effect waves-light btn btn-see-more">Leia mais<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
           </div> 
         </li>
-        <li class="end"></li>
+        <li><span>0</span>
+          <div>
+            <h3>Ábaco</h3>
+            <h5>Povos Mesopotâmicos</h5>
+            <p>Ó abaco é um instrumento bem sucedido que foi inventado pelos povos mesopotâmicos e depois aprefeiçoado pelos chineses para facilitar os cálculos, pois com o passar do tempo foi surgindo a necessidade de...</p>
+            <a class="waves-effect waves-light btn btn-see-more">Leia mais<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div> 
+        </li>
+        <li class="off"><span>1</span>
+          <div>
+            <h3>Máquina Analítica</h3>
+            <h5>Charles Babbage</h5>
+            <p>Desenvolvida por volta de 1834, ela foi a primeira máquina que poderia ser programada para executar vários comandos de qualquer tipo. O mais interessante de tudo é que  o desenho e a estrutura básica da invenção de Babbage...</p>
+            <a class="waves-effect waves-light btn btn-see-more">Leia mais<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div> 
+        </li>
+        <li class="finale"></li>
       </ul>
     </div>
   </section>
@@ -127,6 +144,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>if (!window.jQuery) { document.write('<script src="https://code.jquery.com/jquery-2.1.4.min.js"><\/script>'); }</script>
   <script src="js/menu.js"></script>
+  <script src="js/timeline.js"></script>
   <script src="js/materialize.min.js"></script>
 </body>
 </html>
