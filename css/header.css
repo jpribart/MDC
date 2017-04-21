@@ -237,19 +237,20 @@ nav ul li a:hover {
 }
 
 @media only screen and (min-width: 2560px) {
-	header .navbar .fluid-logo {
-		padding-top: 56px;
+	.fluid-logo {
+		width: 25%;
+		padding-top: 76px;
 	}	
 
 	#main {
-		-webkit-transform: translateX(350px);
-		transform: translateX(350px);
-		-webkit-transform: translate3d(350px,0,0);
-		transform: translate3d(350px,0,0);
+		-webkit-transform: translateX(400px);
+		transform: translateX(400px);
+		-webkit-transform: translate3d(400px,0,0);
+		transform: translate3d(400px,0,0);
 	}
 
 	.btn-responsive {
-		top: 42px;
+		top: 62px;
 		width: 82px;
 		height: 66px;
 	}
@@ -268,157 +269,203 @@ nav ul li a:hover {
 	}
 
 	#menu {
-		width: 350px;
+		width: 400px;
+	}
+
+	#menu ul {
+		margin-top: 165px;
 	}
 
 	#menu ul li {
-		height: 80px;
-    	line-height: 80px;
+		height: 86px;
+    	line-height: 86px;
 	}
 
 	#menu ul li a {
 		width: 350px;
-		font-size: 2.6em;
+		font-size: 2.8em;
 	}
 
-	#wrapper .headline h1 {
+	.headline h1 {
 		font-size: 8vh;
 	    line-height: 100px;
 	    letter-spacing: 4px;
 	}
 
-	#wrapper .headline h4 {
-		font-size: 3vh;
-		line-height: 40px;
+	.headline h4 {
+		font-size: 2.6vh;
+		line-height: 50px;
 		letter-spacing: 2px;
+		margin-left: 200px;
+		margin-right: 200px;
 	}
 
-	#wrapper .headline .btn {
-	    height: 82px;
-	    line-height: 82px;
-	    margin-top: 40px;
-	    padding: 0 40px 0 40px;
-	    font-size: 2.2em;
-	}
-
-	.fluid-container span {
-		font-size: 1.4em;
+	.headline .btn {
+	    height: 110px;
+	    line-height: 110px;
+	    padding: 0 48px 0 48px;
+	    font-size: 3em;
 	}
 
 	.fluid-container .loved {
-		margin-top: -80px;
+		font-size: 2em;
+		margin-top: -100px;
+	}
+
+	.fluid-container .fa {
+		padding: 0 10px 0 10px;
 	}
 }
 
-@media only screen and (min-width: 1920px) {
-	header .navbar .fluid-logo {
+@media only screen and (max-width: 1920px) {
+	.fluid-logo {
 		width: 22%;
 		padding-top: 56px;
 	}	
 
-	#wrapper .headline h1 {
+	.headline h1 {
 		font-size: 7.7vh;
 	    line-height: 82px;
 		letter-spacing: 3px;
 	}
 
-	#wrapper .headline h4 {
+	.headline h4 {
 		font-size: 3vh;
 		line-height: 40px;
 		letter-spacing: 2px;
 	}
 
-	#wrapper .headline .btn {
+	.headline .btn {
 	    height: 82px;
 	    line-height: 82px;
-	    margin-top: 40px;
 	    padding: 0 40px 0 40px;
 	    font-size: 2.2em;
 	}
 
-	.fluid-container span {
-		font-size: 1.4em;
-	}
-
 	.fluid-container .loved {
+		font-size: 1.4em;
 		margin-top: -80px;
 	}
 }
 
-@media only screen and (min-width: 1440px) {
-	#wrapper .headline .btn {
-	    height: 72px;
-	    line-height: 72px;
-	    margin-top: 40px;
-	    padding: 0 30px 0 30px;
-	    font-size: 2em;
-	}
-}
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1440px) {
 	.fluid-logo {
 		width: 26%;
 	}
 
-	#wrapper .headline h1 {
-		font-size: 6.6vh;
-	    line-height: 48px;
-		letter-spacing: 3px;
+	.headline h1 {
+		font-size: 7vh;
+	    line-height: 54px;
 	}
 
-	#wrapper .headline h4 {
-		font-size: 3.5vh;
-		line-height: 22px;
-		letter-spacing: 1px;
-		margin-left: 70px;
-		margin-right: 70px;
+	.headline h4 {
+		font-size: 2.8vh;
+		line-height: 28px;
+		letter-spacing: 2px;
 	}
 
-	#wrapper .headline .btn {
+	.headline .btn {
+		height: 62px;
+	    line-height: 62px;
+	    padding: 0 28px 0 28px;
+	    font-size: 1.8em;
+	}
+
+	.fluid-container .loved {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.fluid-logo {
+		width: 30%;
+	}
+
+	.headline h1 {
+		font-size: 6vh;
+    	line-height: 38px;
+	}
+
+	.headline h4 {
+		font-size: 2.7vh;
+	    line-height: 24px;
+	    letter-spacing: 1px;
+	}
+
+	.headline .btn {
 	    height: 60px;
 	    line-height: 60px;
 	    padding: 0 30px 0 30px;
 	    font-size: 1.6em;
 	}
+
+	.headline .btn {
+	    height: 58px;
+	    line-height: 58px;
+	    padding: 0px 25px 0 25px;
+	    font-size: 1.6em;
+	}
+
+	.fluid-container .loved {
+		font-size: 1.1em;
+		margin-top: -70px;
+	}
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
 	.fluid-logo {
 		width: 28%;
 	}
 
 	.headline h1 {
-		font-size: 6.6vh;
-	    line-height: 48px;
-		letter-spacing: 3px;
+		font-size: 6.2vh;
+	    line-height: 41px;
+	    letter-spacing: 2px;
 	}
 
 	.headline h4 {
-		font-size: 2.5vh;
-		line-height: 22px;
-		letter-spacing: 1px;
-		margin-left: 70px;
-		margin-right: 70px;
+		font-size: 2.4vh;
+	    line-height: 20px;
+	    letter-spacing: 1px;
 	}
 
 	.headline .btn {
-	    height: 82px;
-	    line-height: 82px;
-	    margin-top: 40px;
-	    padding: 0 40px 0 40px;
-	    font-size: 2.2em;
+	    height: 70px;
+	    line-height: 70px;
+	    padding: 0 30px 0 30px;
+	    font-size: 1.8em;
 	}
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 	.fluid-logo {
-		width: 52%;
+		width: 38%;
 		padding-top: 42px;
 	}
 
 	#menu {
 		width: 205px;
+	}
+
+	.headline h1 {
+		font-size: 5.4vh;
+	    line-height: 35px;
+	}
+
+	.headline h4 {
+		font-size: 2.4vh;
+	    line-height: 20px;
+	    letter-spacing: 1px;
+	    margin-left: 40px;
+	    margin-right: 40px;
+	}
+
+	.headline .btn {
+		height: 60px;
+	    line-height: 60px;
+	    padding: 0 25px 0 25px;
+	    font-size: 1.6em;
 	}
 }
 

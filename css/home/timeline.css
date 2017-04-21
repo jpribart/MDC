@@ -1,15 +1,14 @@
-.start {
+#start {
   width: 100%;
   margin-top: -620px;
   text-align: center;
 }
-
-.start .material-icons {
+div .material-icons {
   font-size: 4.2em;
   color: #142a38;
+  margin-top: 60px;
 }
-
-.start h2 {
+div h2 {
   font-weight: 700;
   font-size: 3.4em;
   color: #24a1fd;
@@ -19,7 +18,7 @@
 
 .timeline {
     width: 100%;
-    height: auto;	
+    height: auto;
     position: relative;
     background: #fff;
     margin-top: 26px;
@@ -223,15 +222,51 @@
     border-color: transparent transparent transparent #24a1fd;
 }
 
+.timeline .scrollTop {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    display: none;
+    background-color: #24a1fd;
+    z-index: 2;
+}
+
+.timeline .material-icons {
+    color: #fff;
+    font-size: 3.4em;
+    margin-top: 4px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
 @media only screen and (min-width: 2560px) {
-  .start {
-    margin-top: -1120px;
+  #wrapper #start {
+    margin-top: -1180px;
+  }
+
+  .timeline .scrollTop {
+    width: 100px;
+    height: 100px;
+    right: 80px;
+    bottom: 80px;
+  }
+
+  .timeline .material-icons {
+    font-size: 6.4em;
+    margin-top: 10px;
   }
 }
 
 @media only screen and (min-width: 1920px) {
-  .start {
-    margin-top: -840px;
+  #start {
+    margin-top: -1040px;
   }
 
   .timeline ul li {
@@ -309,8 +344,8 @@
 }
 
 @media only screen and (max-width: 1440px) {
-  .start {
-    margin-top: -580px;
+  #start {
+    margin-top: -680px;
   }
 
   .timeline ul li:nth-child(odd) div {
@@ -319,8 +354,8 @@
 }
 
 @media only screen and (max-width: 1199px) {
-  .start {
-    margin-top: -560px;
+  #start {
+    margin-top: -600px;
   }
 
   .timeline ul li span {
@@ -330,11 +365,21 @@
   .timeline ul li:nth-child(odd) div {
     left: 96px;
   }
+
+  .timeline .scrollTop {
+    bottom: 50px;
+    right: 50px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
   .timeline ul li span {
     top: 355px;
+  }
+
+  .timeline .scrollTop {
+    bottom: 30px;
+    right: 30px;
   }
 }
 
@@ -377,10 +422,10 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .start {
+  #start {
     text-align: left;
     margin-left: 8px;
-    margin-top: -560px;
+    margin-top: -610px;
   }
 
   .timeline ul li {

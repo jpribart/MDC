@@ -17,6 +17,7 @@
     <link href="css/header.css" media="all" rel="stylesheet" type="text/css">
     <link href="css/home/fullscreen-cover.css" media="all" rel="stylesheet" type="text/css">
     <link href="css/home/timeline.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/footer.css" media="all" rel="stylesheet" type="text/css">
     <link href="css/materialize.min.css" media="all" rel="stylesheet" type="text/css">
     <link href="css/Roboto.css" media="all" rel="stylesheet" type="text/css">
   </head>
@@ -43,13 +44,13 @@
       <div class="container">
         <h1>Bem vindo <br>ao <span>Museu Digital</span> da <br>Computação</h1>
         <h4>Embarque em uma viagem pela história da computação e conheça as invenções que tornaram essa área tão grandiosa.</h4>
-        <a class="waves-effect waves-light btn btn-see-more">Vamos lá!</a>
+        <a class="waves-effect waves-light btn btn-see-more" id="scrollToTimeline" href="#start">Vamos lá!</a>
       </div>
     </div>
     <!-- headline -->
-    <div class="fluid-container">
+    <!-- <div class="fluid-container">
         <span class="loved">Desenvolvido com<i class="fa fa-heart"></i>pelo curso de Sistemas de Informação ITPAC</span>
-    </div>
+    </div> -->
     <div id="wrapper-nav">
       <div id="overlay"></div>
       <div id="main">
@@ -57,13 +58,12 @@
           <ul class="toggle-nav">
             <li><a href="#">&nbsp&nbspInício</a></li>
             <li><a href="#">&nbsp&nbspSobre</a></li>
-            <li><a href="#">&nbsp&nbspConheça a equipe</a></li>
           </ul>
         </nav>
       </div>
     </div>
     <!-- wrapper-nav -->
-    <section class="start">
+    <section id="start">
       <div class="container clearfix">
         <i class="material-icons">flag</i>
         <h2>Início</h2>
@@ -140,16 +140,46 @@
         <li class="finale"></li>
       </ul>
     </div>
+    <a href="#" class="scrollTop"><i class="material-icons">keyboard_arrow_up</i></a>
   </section>
+  <!-- <footer class="footer">
+    <div class="container clearfix">
+      <span class="loved">Desenvolvido com<i class="fa fa-heart"></i>pelo curso de Sistemas de Informação ITPAC</span>
+    </div>
+  </footer> -->
   <!-- timeline -->
   </div>
   <!-- wrapper -->
-
+  
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>if (!window.jQuery) { document.write('<script src="https://code.jquery.com/jquery-2.1.4.min.js"><\/script>'); }</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/timeline.js"></script>
+  <script>
+    $('#scrollToTimeline').click(function() {
+      $.scrollTo($document.getElementById('start'));
+    });
+  </script><!-- Btn Vamos lá! -->
+  <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1200) {
+                $('.scrollTop').fadeIn();
+            } else {
+                $('.scrollTop').fadeOut();
+            }
+        });
+        $('.scrollTop').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+    });
+  </script><!-- Scroll to Top -->
   <script src="js/materialize.min.js"></script>
 </body>
 </html>

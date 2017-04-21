@@ -66,9 +66,19 @@
     }
 
     @media only screen and (min-width: 2560px) {
+        .headline .container {
+            max-width: 70%;
+        }
+
         .fluid-container {
-            left: 76px;
-            right: 76px;
+            left: 86px;
+            right: 86px;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .headline .container {
+            max-width: 70%;
         }
     }
 
