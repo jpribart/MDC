@@ -65,6 +65,13 @@
         *zoom: 1;
     }
 
+    @media only screen and (min-width: 2560px) {
+        .fluid-container {
+            left: 76px;
+            right: 76px;
+        }
+    }
+
     @media only screen and (max-width: 600px) {
         .fluid-container {
         left: 50px;

@@ -30,7 +30,7 @@ header {
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
-	z-index: 1;
+	top: -100%;
 }
 
 #main {
@@ -52,6 +52,7 @@ header {
 	transform: translateX(0);
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+	z-index: 1;
 }
 
 #menu {
@@ -136,7 +137,7 @@ nav ul li a:hover {
 	content: ''
 }
 
-.btn-responsive .menu-opened:after {
+/*.btn-responsive .menu-opened:after {
 	-webkit-transition: all .3s ease;
 	-ms-transition: all .3s ease;
 	transition: all .3s ease;
@@ -161,30 +162,256 @@ nav ul li a:hover {
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg)
-}
+}*/
 
 .headline {
 	position: relative;
 	width: 100%;
-	top: 0;
+	height: 100%;
+	display: -webkit-flex;
+  	display: flex;
+    -webkit-align-items: center;
+  	align-items: center;
+    -webkit-justify-content: center;
+  	justify-content: center;
 }
 
 .headline h1 {
-	color: #ddd;
+	color: #fff;
 	font-weight: 800;
-	font-size: 4.4vh;
-	line-height: 68px;
+	font-size: 7.5vh;
+    line-height: 58px;
 	letter-spacing: 3px;
 	text-align: left;
 	text-transform: uppercase;
-	z-index: 2;
+	margin-top: 120px;
 }
 
 .headline span {
 	color: #24a1fd;
 }
 
-@media only screen and (max-width: 600px) {
+.headline h4 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 2.8vh;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.headline .btn {
+	width: auto;
+    height: 62px;
+    float: right;
+    line-height: 64px;
+    color: #fff;
+    margin-top: 30px;
+    padding: 0 34px 0 34px;
+    background-color: #24a1fd;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6em;
+    border-radius: 0px;
+}
+
+.headline .btn:hover {
+	background-color: #24a1fd;
+}
+
+.fluid-container .loved {
+	color: #fff;
+	margin-top: -60px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+.fluid-container .fa {
+	color: #24a1fd;
+	font-size: 1.3em;
+	padding: 0 6px 0 6px;
+}
+
+@media only screen and (min-width: 2560px) {
+	header .navbar .fluid-logo {
+		padding-top: 56px;
+	}	
+
+	#main {
+		-webkit-transform: translateX(350px);
+		transform: translateX(350px);
+		-webkit-transform: translate3d(350px,0,0);
+		transform: translate3d(350px,0,0);
+	}
+
+	.btn-responsive {
+		top: 42px;
+		width: 82px;
+		height: 66px;
+	}
+
+	.btn-responsive:after {
+		top: 30px;
+		height: 18px;
+		width: 42px;
+		border-top: 4px solid #fff;
+    	border-bottom: 4px solid #fff;
+	}
+
+	.btn-responsive:before {
+		height: 4px;
+		width: 42px;
+	}
+
+	#menu {
+		width: 350px;
+	}
+
+	#menu ul li {
+		height: 80px;
+    	line-height: 80px;
+	}
+
+	#menu ul li a {
+		width: 350px;
+		font-size: 2.6em;
+	}
+
+	#wrapper .headline h1 {
+		font-size: 8vh;
+	    line-height: 100px;
+	    letter-spacing: 4px;
+	}
+
+	#wrapper .headline h4 {
+		font-size: 3vh;
+		line-height: 40px;
+		letter-spacing: 2px;
+	}
+
+	#wrapper .headline .btn {
+	    height: 82px;
+	    line-height: 82px;
+	    margin-top: 40px;
+	    padding: 0 40px 0 40px;
+	    font-size: 2.2em;
+	}
+
+	.fluid-container span {
+		font-size: 1.4em;
+	}
+
+	.fluid-container .loved {
+		margin-top: -80px;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	header .navbar .fluid-logo {
+		width: 22%;
+		padding-top: 56px;
+	}	
+
+	#wrapper .headline h1 {
+		font-size: 7.7vh;
+	    line-height: 82px;
+		letter-spacing: 3px;
+	}
+
+	#wrapper .headline h4 {
+		font-size: 3vh;
+		line-height: 40px;
+		letter-spacing: 2px;
+	}
+
+	#wrapper .headline .btn {
+	    height: 82px;
+	    line-height: 82px;
+	    margin-top: 40px;
+	    padding: 0 40px 0 40px;
+	    font-size: 2.2em;
+	}
+
+	.fluid-container span {
+		font-size: 1.4em;
+	}
+
+	.fluid-container .loved {
+		margin-top: -80px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	#wrapper .headline .btn {
+	    height: 72px;
+	    line-height: 72px;
+	    margin-top: 40px;
+	    padding: 0 30px 0 30px;
+	    font-size: 2em;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.fluid-logo {
+		width: 26%;
+	}
+
+	#wrapper .headline h1 {
+		font-size: 6.6vh;
+	    line-height: 48px;
+		letter-spacing: 3px;
+	}
+
+	#wrapper .headline h4 {
+		font-size: 3.5vh;
+		line-height: 22px;
+		letter-spacing: 1px;
+		margin-left: 70px;
+		margin-right: 70px;
+	}
+
+	#wrapper .headline .btn {
+	    height: 60px;
+	    line-height: 60px;
+	    padding: 0 30px 0 30px;
+	    font-size: 1.6em;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.fluid-logo {
+		width: 28%;
+	}
+
+	.headline h1 {
+		font-size: 6.6vh;
+	    line-height: 48px;
+		letter-spacing: 3px;
+	}
+
+	.headline h4 {
+		font-size: 2.5vh;
+		line-height: 22px;
+		letter-spacing: 1px;
+		margin-left: 70px;
+		margin-right: 70px;
+	}
+
+	.headline .btn {
+	    height: 82px;
+	    line-height: 82px;
+	    margin-top: 40px;
+	    padding: 0 40px 0 40px;
+	    font-size: 2.2em;
+	}
+}
+
+
+@media only screen and (min-width: 600px) {
 	.fluid-logo {
 		width: 52%;
 		padding-top: 42px;
@@ -195,20 +422,3 @@ nav ul li a:hover {
 	}
 }
 
-@media only screen and (min-width: 600px) {
-	.fluid-logo {
-		width: 34%;
-	}
-}
-
-@media only screen and (min-width: 992px) {
-	.fluid-logo {
-		width: 28%;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.fluid-logo {
-		width: 22%;
-	}
-}
