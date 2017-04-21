@@ -1,0 +1,4 @@
+[0421/173345.898:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0421/173346.534:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0421/173346.539:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0421/173346.836:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
