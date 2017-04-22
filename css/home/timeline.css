@@ -236,7 +236,8 @@ div h2 {
 .timeline .material-icons {
     color: #fff;
     font-size: 3.4em;
-    margin-top: 4px;
+    margin-top: 6px;
+    margin-left: 2px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -491,4 +492,10 @@ div h2 {
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
   }  
+}
+
+@media only screen and (max-width: 320px) {
+  #start {
+    margin-top: -560px;
+  }
 }

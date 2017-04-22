@@ -469,3 +469,74 @@ nav ul li a:hover {
 	}
 }
 
+@media only screen and (max-width: 425px) {
+	.fluid-logo {
+		width: 48%;
+	}
+
+	#main {
+		-webkit-transform: translateX(190px);
+		transform: translateX(190px);
+		-webkit-transform: translate3d(190px,0,0);
+		transform: translate3d(190px,0,0);
+	}
+
+	#menu {
+		width: 190px;
+	}
+
+	.btn-responsive {
+		top: 26px;
+	}
+
+	.headline {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+	}
+
+	.headline h1 {
+		font-size: 5vh;
+		line-height: 32px;
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	.headline h4 {
+		font-size: 2vh;
+		line-height: 17px;
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+	}
+
+	.headline .btn {
+		margin-top: 40px;
+		float: none;
+		margin-left: 90px;
+    	margin-right: 90px;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.fluid-logo {
+		width: 60%;
+	}
+
+	.headline .btn {
+		margin-left: 74px;
+    	margin-right: 74px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.headline .btn {
+		margin-left: 45px;
+    	margin-right: 45px;
+	}
+}
