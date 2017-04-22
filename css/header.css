@@ -415,6 +415,11 @@ nav ul li a:hover {
 @media only screen and (max-width: 992px) {
 	.fluid-logo {
 		width: 28%;
+		padding-top: 42px;
+	}
+
+	.btn-responsive {
+		top: 26px;
 	}
 
 	.headline h1 {

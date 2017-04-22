@@ -46,8 +46,8 @@ button {
 
 .fluid-container {
     position: absolute;
-    left: 60px;
-    right: 60px;
+    left: 56px;
+    right: 56px;
     margin: 0 auto;
 }
 
@@ -65,30 +65,6 @@ button {
     *zoom: 1;
 }
 
-@media only screen and (min-width: 2560px) {
-    .headline .container {
-        max-width: 70%;
-    }
-}
-    .fluid-container {
-        left: 86px;
-        right: 86px;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .headline .container {
-        max-width: 70%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .fluid-container {
-        left: 50px;
-        right: 50px;
-    }
-}
-
 @media only screen and (max-width: 425px) {
     .headline .container {
         max-width: 82%;
@@ -97,5 +73,45 @@ button {
     .fluid-container {
         left: 40px;
         right: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .headline .container {
+        max-width: 72%;
+    }
+
+    .fluid-container {
+        left: 44px;
+        right: 44px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .headline .container {
+        max-width: 76%;
+    }
+
+    .fluid-container {
+        left: 40px;
+        right: 40px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .fluid-container {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .headline .container {
+        min-width: 70%;
+    }
+}
+    .fluid-container {
+        margin-left: 32px;
+        margin-right: 32px;
     }
 }
