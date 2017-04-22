@@ -369,6 +369,7 @@ nav ul li a:hover {
 	    line-height: 62px;
 	    padding: 0 28px 0 28px;
 	    font-size: 1.8em;
+	    right: -40px;
 	}
 
 	.fluid-container .loved {
@@ -392,12 +393,7 @@ nav ul li a:hover {
 	    letter-spacing: 1px;
 	}
 
-	.headline .btn {
-	    height: 60px;
-	    line-height: 60px;
-	    padding: 0 30px 0 30px;
-	    font-size: 1.6em;
-	}
+	
 
 	.headline .btn {
 	    height: 58px;

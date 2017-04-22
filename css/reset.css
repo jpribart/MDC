@@ -82,8 +82,8 @@ button {
     }
 
     .fluid-container {
-        left: 44px;
-        right: 44px;
+        margin-left: 44px;
+        margin-right: 44px;
     }
 }
 
@@ -93,21 +93,21 @@ button {
     }
 
     .fluid-container {
-        left: 40px;
-        right: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
 
 @media only screen and (max-width: 1440px) {
     .fluid-container {
-        margin-left: 6px;
-        margin-right: 6px;
+        margin-left: 26px;
+        margin-right: 26px;
     }
 }
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (max-width: 2560px) {
     .headline .container {
-        min-width: 70%;
+        max-width: 70%;
     }
 }
     .fluid-container {
