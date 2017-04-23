@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" content="">
+    <meta name="description" content="Museu Digital da Computação"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords" content="museu, digital, computação, tecnologia, história, gerações, invenções, museum, digital, computer, technology, history, generations, inventions" />
+    <meta name="author" content="1º Período Sistemas de Informação - ITPAC Araguaína" />
+    <title>Compiladores - Museu Digital da Computação</title>
+    <!-- Favicons -->
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <!-- Fonts -->
+    <link href="../fonts/faw/faw.css" media="all" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS -->
+    <link href="../css/reset.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/header.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/page-header.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/page-content/page-content.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/footer.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/materialize.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/Roboto.css" media="all" rel="stylesheet" type="text/css">
+  </head>
+<body>
+  <header class="page-header">
+    <div class="navbar">
+      <div class="back">
+        <a href="javascript:window.history.go(-1)">
+          <i class="material-icons">keyboard_return</i>
+          <span>Voltar para o ínicio</span>
+        </a>
+      </div>
+      <div class="container clearfix">
+        <h1>Compiladores</h1>
+        <h3>John Backus</h3>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+
+  <article>
+    <div class="container clearfix">
+        <p style="margin-top: 62px;">Os primeiros computadores não usavam compiladores, porque eles tinham apenas alguns poucos opcodes (pseudocódigos) e pouca memória e os usuários entravam com código binário de máquina diretamente. No final dos anos 40, os programadores descobriram que o código de máquina tedioso poderia ser representado usando alguns mnemônicos – abreviações de palavras, o que deu origem à linguagem assembly. Adicionalmente, os próprios computadores poderiam traduzir estes mnemônicos em linguagem de máquina. O primeiro compilador surgia que era o assembler, ou montador. </p>
+        <p>Durante os anos 50, as linguagens de assembly dependentes da máquina para a qual eram projetadas ainda não eram ideais para os programadores, e por essa razão evoluíram as linguagens de alto-nível e independentes da máquina subjacente. Vários compiladores experimentais foram desenvolvidos desde então, começando com o trabalho de Grace Hopper na linguagem A-0. O crédito do primeiro compilador completo, em 1957, é atribuído à equipe de desenvolvimento do FORTRAN, liderada por John Backus da IBM. </p>
+        <p>O COBOL foi a primeira linguagem a ser compilada em múltiplas arquiteturas, em 1960. A idéia da compilação engrenou rapidamente, e a maior parte dos princípios de projetos de compiladores foi desenvolvida durante os anos 60. Com a evolução das linguagens de programação e o poder crescente dos computadores, os compiladores foram se tornando mais e mais complexos a fim de preencherem a distância entre as linguagens de programação modernas e os vários sistemas computacionais, e também com o intuito de atingir o máximo de desempenho das máquinas-alvo.</p>
+        <p style="margin-bottom: 180px;">Um compilador é por si só um programa de computador escrito em alguma linguagem de implementação. Os primeiros compiladores foram escritos em linguagem assembly. O primeiro compilador autocontido – ou seja, capaz de compilar o seu próprio código-fonte em uma linguagem de alto-nível – foi criado para o LISP por Hart e Levin no MIT em 1962. O uso de linguagens de alto-nível para a escrita de compiladores foi ganhando ímpeto no começo dos anos 70 quando os compiladores Pascal e C foram escritos em suas próprias linguagens. Criar um compilador autocontido envolve um problema de bootstrapping (amarração), pois o primeiro desses compiladores precisa ser inicialmente compilado por um compilador escrito em outra linguagem, ou como no caso do primeiro compilador do LISP, ser compilado rodando-se o compilador em um interpretador.</p>
+    </div>    
+  </article>
+  <a href="#" class="scrollTop"><i class="material-icons">keyboard_arrow_up</i></a>
+
+  <footer class="footer">
+    <div class="container clearfix">
+      <span class="loved">Desenvolvido com<i class="fa fa-heart"></i>pelo 1º Período do curso de Sistemas de Informação ITPAC</span>
+    </div>
+  </footer>
+  
+  
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>if (!window.jQuery) { document.write('<script src="https://code.jquery.com/jquery-2.1.4.min.js"><\/script>'); }</script>
+  <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('.scrollTopollTop')').fadeIn();
+            } else {
+                $('.scrollTop').fadeOut();
+            }
+        });
+        $('.scrollTop').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+    });
+  </script><!-- Scroll to top -->
+  <script src="../js/materialize.min.js"></script>
+</body>
+</html>    

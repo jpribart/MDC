@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" content="">
+    <meta name="description" content="Museu Digital da Computação"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords" content="museu, digital, computação, tecnologia, história, gerações, invenções, museum, digital, computer, technology, history, generations, inventions" />
+    <meta name="author" content="1º Período Sistemas de Informação - ITPAC Araguaína" />
+    <title>ENIAC - Museu Digital da Computação</title>
+    <!-- Favicons -->
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <!-- Fonts -->
+    <link href="../fonts/faw/faw.css" media="all" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS -->
+    <link href="../css/reset.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/header.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/page-header.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/page-content/page-content.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/footer.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/materialize.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/Roboto.css" media="all" rel="stylesheet" type="text/css">
+  </head>
+<body>
+  <header class="page-header">
+    <div class="navbar">
+      <div class="back">
+        <a href="javascript:window.history.go(-1)">
+          <i class="material-icons">keyboard_return</i>
+          <span>Voltar para o ínicio</span>
+        </a>
+      </div>
+      <div class="container clearfix">
+        <h1>ENIAC</h1>
+        <h3>John Eckert e John Mauchly</h3>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+
+  <article>
+    <div class="container clearfix">
+        <h1>Electronic Numerical Integrator And Computer (ENIAC):</h1> 
+        <p>O primeiro computador eletrônico digital de larga escala, o Electronic Numerical Integrator And Computer (no português quer dizer Computador e Integrador Numérico Eletrônico), ou ENIAC.</p>
+        <p >Desenvolvido a pedido do exército dos EUA para seu laboratório de pesquisa balística, o ENIAC era um monstrengo de 30 toneladas de peso que ocupava uma área de 180 m² de área construída. Sua produção custou nada menos do que US$ 500 mil na época, o que hoje representaria aproximadamente US$ 6 milhões e a máquina contava com um hardware com 70 mil resistores e 18 mil válvulas de vácuo que em funcionamento consumiam vorazmente 200 mil watts de energia. Já seu “sistema operacional” eram cartões perfurados que eram operados por um time de funcionárias do exército – o que de quebra as classifica como as primeiras programadoras que se tem notícia. Sua construção de iniciou em plena guerra, em 1943, e apesar de ser mostrado em 46 só foi ser ligado pela primeira vez em julho de 47.</p>
+        <p>Apesar de ter uma capacidade de operação menor do que qualquer calculadora de mão moderna, durante seus 10 anos de operação o ENIAC “realizou mais contas do que toda humanidade já havia feito em sua história”. No final de sua carreira, um concorrente com o dobro da capacidade custava o equivalente a US$ 200 mil e tinha apenas 10% de seu tamanho.</p>
+        <p style="margin-bottom: 180px;">Ao sair de cena o ENIAC foi desmontado e diversas de suas peças estão em exposição pelo mundo. Os computadores ainda ficaram exclusivamente nas mãos de empresas e órgãos governamentais até o final da década de 70, quando a computação doméstica começou a dar seus primeiros passos. Mas isso é outra história.</p>
+    </div>
+  </article>
+  <a href="#" class="scrollTop"><i class="material-icons">keyboard_arrow_up</i></a>
+
+  <footer class="footer">
+    <div class="container clearfix">
+      <span class="loved">Desenvolvido com<i class="fa fa-heart"></i>pelo 1º Período do curso de Sistemas de Informação ITPAC</span>
+    </div>
+  </footer>
+  
+  
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>if (!window.jQuery) { document.write('<script src="https://code.jquery.com/jquery-2.1.4.min.js"><\/script>'); }</script>
+  <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('.scrollTop').fadeIn();
+            } else {
+                $('.scrollTop').fadeOut();
+            }
+        });
+        $('.scrollTop').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+    });
+  </script><!-- Scroll to top -->
+  <script src="../js/materialize.min.js"></script>
+</body>
+</html>

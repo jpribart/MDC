@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" content="">
+    <meta name="description" content="Museu Digital da Computação"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords" content="museu, digital, computação, tecnologia, história, gerações, invenções, museum, digital, computer, technology, history, generations, inventions" />
+    <meta name="author" content="1º Período Sistemas de Informação - ITPAC Araguaína" />
+    <title>Semicondutores - Museu Digital da Computação</title>
+    <!-- Favicons -->
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <!-- Fonts -->
+    <link href="../fonts/faw/faw.css" media="all" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS -->
+    <link href="../css/reset.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/header.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/page-header.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/page-content/page-content.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/footer.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/materialize.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/Roboto.css" media="all" rel="stylesheet" type="text/css">
+  </head>
+<body>
+  <header class="page-header">
+    <div class="navbar">
+      <div class="back">
+        <a href="javascript:window.history.go(-1)">
+          <i class="material-icons">keyboard_return</i>
+          <span>Voltar para o ínicio</span>
+        </a>
+      </div>
+      <div class="container clearfix">
+        <h1>Semicondutores</h1>
+        <h3>Ferdinand Braun</h3>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+
+  <article>
+    <div class="container clearfix">
+        <p style="margin-top: 62px;">Seu emprego é importante na fabricação de componentes eletrônicos tais como diodos, transístores e outros de diversos graus de complexidade tecnológica, microprocessadores, e nanocircuitos usados em nanotecnologia. Portanto atualmente o elemento semicondutor é primordial na indústria eletrônica e confecção de seus componentes. </p>
+        <p>Em 1874, Braun descobriu o efeito semicondutor em alguns sulfetos metálicos. Os primeiros elementos estudados foram o sulfeto de chumbo e o sulfeto de ferro. Em 1878 e 1879 David E. Hughes iniciou pesquisas no efeito semicondutor, a princípio como curiosidade, pois foi percebido ao acaso pelo cientista.</p>
+        <p>Embora Hughes não conhecesse o trabalho de James Clerk Maxwell, descobriu uma maneira de emitir ondas eletromagnéticas a partir de semicondutores. Em função de suas experiências acabou por inventar o detector eletromagnético por efeito semicondutivo, o diodo.</p>
+        <p style="margin-bottom: 180px;">Em 1929, Walter Schottky, confirmou experimentalmente a existência de uma barreira de potêncial numa junção Metal-Semicondutor.</p>
+    </div>    
+  </article>
+  <a href="#" class="scrollTop"><i class="material-icons">keyboard_arrow_up</i></a>
+
+  <footer class="footer">
+    <div class="container clearfix">
+      <span class="loved">Desenvolvido com<i class="fa fa-heart"></i>pelo 1º Período do curso de Sistemas de Informação ITPAC</span>
+    </div>
+  </footer>
+  
+  
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>if (!window.jQuery) { document.write('<script src="https://code.jquery.com/jquery-2.1.4.min.js"><\/script>'); }</script>
+  <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('.scrollTopollTop')').fadeIn();
+            } else {
+                $('.scrollTop').fadeOut();
+            }
+        });
+        $('.scrollTop').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+    });
+  </script><!-- Scroll to top -->
+  <script src="../js/materialize.min.js"></script>
+</body>
+</html>    

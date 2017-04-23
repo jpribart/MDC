@@ -1,0 +1,14 @@
+[0423/122533.504:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0423/122534.018:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0423/122534.018:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0423/125133.618:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0423/125133.735:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0423/125134.005:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0423/152120.157:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0423/152120.709:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0423/152120.744:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0423/152121.022:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0423/152129.544:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0423/152129.737:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0423/152129.741:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0423/152130.337:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
