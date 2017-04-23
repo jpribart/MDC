@@ -137,33 +137,6 @@ nav ul li a:hover {
 	content: ''
 }
 
-/*.btn-responsive .menu-opened:after {
-	-webkit-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	transition: all .3s ease;
-	top: 23px;
-	border: 0;
-	height: 2px;
-	width: 19px;
-	background: #fff;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg)
-}
-
-.btn-responsive .menu-opened:before {
-	top: 23px;
-	background: #fff;
-	width: 19px;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg)
-}*/
-
 .headline {
 	position: relative;
 	width: 100%;
