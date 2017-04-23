@@ -65,25 +65,21 @@ button {
     *zoom: 1;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 2560px) {
     .headline .container {
-        max-width: 82%;
+        max-width: 70%;
     }
 
     .fluid-container {
-        left: 40px;
-        right: 40px;
+        left: 100px;
+        right: 100px;
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .headline .container {
-        max-width: 72%;
-    }
-
-    .fluid-container {
-        margin-left: 44px;
-        margin-right: 44px;
+@media only screen and (max-width: 1920px) {
+    .fluid.container {
+        left: 10px;
+        right: 10px;
     }
 }
 
@@ -93,25 +89,19 @@ button {
     }
 
     .fluid-container {
-        margin-left: 40px;
-        margin-right: 40px;
+        left: 45px;
+        right: 45px;
     }
 }
 
-@media only screen and (max-width: 1440px) {
-    .fluid-container {
-        margin-left: 26px;
-        margin-right: 26px;
-    }
-}
-
-@media only screen and (max-width: 2560px) {
+@media only screen and (max-width: 600px) {
     .headline .container {
-        max-width: 70%;
+        max-width: 72%;
     }
 }
-    .fluid-container {
-        margin-left: 32px;
-        margin-right: 32px;
+
+@media only screen and (max-width: 425px) {
+    .headline .container {
+        max-width: 82%;
     }
 }

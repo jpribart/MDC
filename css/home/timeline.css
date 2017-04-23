@@ -252,6 +252,11 @@ div h2 {
     margin-top: -1180px;
   }
 
+  .timeline ul li:nth-child(even) div {
+    top: 391px;
+    left: -620px;
+  }
+
   .timeline .scrollTop {
     width: 100px;
     height: 100px;
@@ -281,11 +286,11 @@ div h2 {
   .timeline ul li::after {
     width: 80px;
     height: 80px;
-    top: 437px;
+    top: 424px;
   }
 
   .timeline ul li span {
-    top: 454px;
+    top: 441px;
     left: 11px;
     font-size: 2.5em;
   }
@@ -319,7 +324,7 @@ div h2 {
 } 
 
   .timeline ul li:nth-child(odd) div {
-    top: 392px;
+    top: 378px;
     left: 109px;
     word-wrap: break-word;
   }
@@ -331,8 +336,8 @@ div h2 {
     border-color: transparent #24a1fd transparent transparent;
   }
 
-    .timeline ul li:nth-child(even) div {
-    top: 391px;
+  .timeline ul li:nth-child(even) div {
+    top: 377px;
     left: -620px;
   }
 
@@ -349,8 +354,21 @@ div h2 {
     margin-top: -680px;
   }
 
+  .timeline ul li::after {
+    top: 346px;
+  }
+
+  .timeline ul li span {
+    top: 358px;
+  }
+
   .timeline ul li:nth-child(odd) div {
     left: 96px;
+    top: 296px;
+  }
+
+  .timeline ul li:nth-child(even) div {
+    top: 298px;
   }
 }
 
@@ -370,6 +388,12 @@ div h2 {
   .timeline .scrollTop {
     bottom: 50px;
     right: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .timeline ul li::after {
+    top: 344px;
   }
 }
 

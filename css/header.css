@@ -517,8 +517,8 @@ nav ul li a:hover {
 	.headline .btn {
 		margin-top: 40px;
 		float: none;
-		margin-left: 90px;
-    	margin-right: 90px;
+		margin-left: 40px;
+    	margin-right: 120px;
 		display: flex;
 		justify-content: center;
 	}
@@ -530,14 +530,18 @@ nav ul li a:hover {
 	}
 
 	.headline .btn {
-		margin-left: 74px;
-    	margin-right: 74px;
+		margin-left: 16px;
+    	margin-right: 96px;
 	}
 }
 
 @media only screen and (max-width: 320px) {
+	.fluid-logo {
+		width: 70%;
+	}
+
 	.headline .btn {
-		margin-left: 45px;
-    	margin-right: 45px;
+		margin-left: 0px
+    	margin-right: 80px;
 	}
 }
