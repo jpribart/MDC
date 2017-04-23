@@ -1,3 +1,5 @@
 --------------------- Pendências ---------------------
 
 1. Identar e Juntar linhas.
+
+2. ALterar "Voltar para o início"
