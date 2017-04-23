@@ -1,5 +1,5 @@
 # Museu Digital da Computação
-Repositório Oficial do Museu Digital da Computação
+Repositório Oficial do Museu Digital da Computação.
 
 O Museu Digital da Computação é um projeto desenvolvido por acadêmicos do 1º Período do curso de Sistemas de Informação do Centro Universitário ITPAC, situado em Araguaína, TO.
 
