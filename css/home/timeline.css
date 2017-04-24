@@ -16,6 +16,72 @@ div h2 {
   margin-top: 6px;
 }
 
+.search-box {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  top: 80px;
+  z-index: 9999;
+}
+
+.search-box input[type=text] {
+    width: 20%;
+    height: 45px;
+    right: 20px;
+    position: relative;
+    box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.30);
+    -ms-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.30);
+    -o-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.30);
+    border: none;
+    border-bottom: 0px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #666;
+    margin: 0 0 0 0;
+    padding: 7px 18px;
+    box-sizing: content-box;
+    transition: all 0.3s;
+}
+
+.search-box input[type=text]::after {
+    border-width: 15px 16px 15px 0;
+    border-color: transparent #24a1fd transparent transparent;
+}
+
+.search-box input[type=text]:focus:not([readonly]) {
+    border-bottom: 0px;
+    box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.18);
+    -ms-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.18);
+    -o-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.18);
+}
+
+.search-box .fa {
+    margin-top: 2px;
+    width: 55px;
+    height: 55px;
+    margin-right: 35px;
+    background-color: #24a1fd;
+    font-size: 1.8em;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.25);
+    -ms-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.25);
+    -o-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
 .timeline {
     width: 100%;
     height: auto;
@@ -78,6 +144,14 @@ div h2 {
     -o-border-radius: 50%;
 }
 
+.timeline ul.error::after {
+      top: 150px;
+}
+
+.error .material-icons {
+  top: 162px;
+}
+
 .timeline ul .off {
     list-style-type: none;
     position: relative;
@@ -86,6 +160,14 @@ div h2 {
     padding-top: 50px;
     background: #142632;
     border-radius: 0px;
+}
+
+.timeline ul .error div {
+    top: 102px;
+}
+
+.timeline ul .error p {
+    margin-bottom: 20px;
 }
 
 .timeline ul .off::after {
@@ -226,7 +308,7 @@ div h2 {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 35px;
+    bottom: 25px;
     right: 35px;
     display: none;
     background-color: #24a1fd;
@@ -246,6 +328,10 @@ div h2 {
     justify-content: center;
 }
 
+texttags {
+    display: none;
+}
+
 @media only screen and (min-width: 2560px) {
   #wrapper #start {
     margin-top: -1180px;
@@ -260,7 +346,7 @@ div h2 {
     width: 100px;
     height: 100px;
     right: 80px;
-    bottom: 80px;
+    bottom: 70px;
   }
 
   .timeline .material-icons {
@@ -294,7 +380,7 @@ div h2 {
     font-size: 2.5em;
   }
 
-    .timeline ul li div {
+  .timeline ul li div {
     width: 550px;
     padding: 28px 48px;
   }
@@ -385,7 +471,7 @@ div h2 {
   }
 
   .timeline .scrollTop {
-    bottom: 25px;
+    bottom: 15px;
     right: 25px;
   }
 }
@@ -402,7 +488,7 @@ div h2 {
   }
 
   .timeline .scrollTop {
-    bottom: 30px;
+    bottom: 20px;
     right: 30px;
   }
 }

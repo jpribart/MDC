@@ -1,0 +1,461 @@
+{
+    "pages": 
+    [
+        {
+            "binario": 0,
+            "titulo": "Ábaco",
+            "autor": "Povos Mesopotâmicos",
+            "previa":"Mas, o que é esse Ábaco? Ele é formado por uma moldura com bastões ou arames paralelos dispostos no sentido vertical, onde cada posição desses bastões...",
+            "link":"page-content/abaco.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Réguas de Cálculo",
+            "autor": "William Oughtred",
+            "previa":"Durante vários séculos, o ábaco foi desenvolvido e aperfeiçoado se tornando a principal ferramenta de cálculo por muito tempo. Entretanto...",
+            "link":"page-content/regua-calculo.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Calculadora Mecânica",
+            "autor": "Pascal",
+            "previa":"Seu funcionamento era baseado no uso rodas interligadas e giravam na realização dos cálculos. Ele a construiu para ajudar seu pai...",
+            "link":"page-content/calculadora-mecanica.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Calculadora Mecânica Universal",
+            "autor": "Gottfried Wilhelm Leibnitz",
+            "previa":"O matemático alemão, Gottfried Wilhelm von Leibnitz aprimorou a Pascaline criando um modelo capaz também de multiplicar, dividir e extrair raízes quadradas, através de adições e ...",
+            "link":"page-content/calculadora-mecanica-universal.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Telégrafo",
+            "autor": "Samuel Morse",
+            "previa":"Em 1753 um aparelho que empregava atração eletrostática, já tinha sido sugerido por um escritor anônimo na Revista 'escoceses', e foi a base das primeiras experiências na telegrafia elétrica na Europa. Diversos equipamentos...",
+            "link":"page-content/telegrafo.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Máquina de Tear",
+            "autor": "Joseph Jacquard",
+            "previa":"No ano de 1801, um costureiro chamado Joseph Marie Jacquard, desenvolveu um sistema que revolucionaria o mundo tecnológico da época, conseguiu automatizar...",
+            "link":"page-content/maquina-tear.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Máquina Diferencial",
+            "autor": "Charles Babbage",
+            "previa":"No ano de 1822, foi publicado um artigo cientifico, que prometia revolucionar tudo que existia até então no ramo de cálculo eletrônico. O seu autor foi Charlles Babbage...",
+            "link":"page-content/maquina-diferencial.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Máquina Analítica",
+            "autor": "Charles Babbage",
+            "previa":"Em torno de 1833, Babbage resolveu deixar de lado seus planos de uma Máquina de Diferenças. O insucesso, porém, não o impediu de desenvolver ideias para construir uma máquina ainda mais...",
+            "link":"page-content/maquina-analitica.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Aritmômetro",
+            "autor": "Charles Xavier Thomas",
+            "previa":"Durante sua longa estada com os exércitos de Marchall Soult, onde precisava realizar uma grande quantidade de cálculos, Charles-Xavier Thomas de Colmar concebeu a ideia do aritmômetro. Considerando máquinas...",
+            "link":"page-content/aritmometro.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "A Teoria de Boole",
+            "autor": "George Boole",
+            "previa":"Por mais estranho que possa parecer, uma das maiores revoluções para o “mundo dos cálculos”, não foi nenhuma máquina milagrosa ou a evolução das já existentes – mas sim uma teoria. A publicação de dois...",
+            "link":"page-content/teoria-boole.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Cartão Perfurado/Máquina do Censo",
+            "autor": "Herman Hollerith",
+            "previa":"O conceito de cartões desenvolvido na máquina de tear programável foi muito útil para a realização do censo de 1890 nos Estados Unidos. Nessa ocasião, Herman Hollerith desenvolveu uma...",
+            "link":"page-content/maquina-censo.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Tabulating Machine Company",
+            "autor": "Herman Hollerith",
+            "previa":"Em 1896, Hollerith criou a Tabulating Machine Company e introduziu inovações em sua descoberta. Assim, a fita de papel foi substituída por cartões, que viriam a ser o elemento...",
+            "link":"page-content/tabulating-machine-company.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "International Business Corporation (IBM)",
+            "autor": "Herman Hollerith",
+            "previa":"Tudo começou no final do século XIX, nos Estados Unidos, quando o estatístico Herman Hollerith idealizou uma solução eficiente para acelerar o colhimento e organização de dados ...",
+            "link":"page-content/IBM.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Válvulas",
+            "autor": "Fleming",
+            "previa":"Além de trabalhar com tensões mais altas e também quentes (elas precisam ser aquecidas antes de entrarem em funcionamento e isso pode levar até mais de 1 minuto), as válvulas apresentam outras diferenças...",
+            "link":"page-content/valvulas.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Máquina de Turing",
+            "autor": "Alan Mathison Turing",
+            "previa":"É um dispositivo imaginário que formou a estrutura para fundamentar a ciência da computação moderna. Seu inventor, o matemático Alan Mathison Turing, mostrou que a computação das operações...",
+            "link":"page-content/maquina-turing.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Electronic Numerical Integrator And Computer (ENIAC)",
+            "autor": "John Eckert e John Mauchly",
+            "previa":"O primeiro computador eletrônico digital de larga escala, o Electronic Numerical Integrator And Computer (no português quer dizer Computador e Integrador Numérico Eletrônico), ou ENIAC...",
+            "link":"page-content/eniac.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Compiladores",
+            "autor": "John Backus",
+            "previa":"Os primeiros computadores não usavam compiladores, porque eles tinham apenas alguns poucos opcodes (pseudocódigos) e pouca memória e os usuários entravam com código binário de máquina diretamente. No final ....",
+            "link":"page-content/compiladores.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Interpretadores",
+            "autor": "",
+            "previa":"Interpretadores são programas de computador que leem um código fonte de uma linguagem de programação interpretada e o converte em código executável. Seu funcionamento pode variar de acordo....",
+            "link":"page-content/interpretadores.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Tradic",
+            "autor": "Jean Howard Felker",
+            "previa":"Em meados de 1955 conclui-se o primeiro computador totalmente transistorizado, desenvolvido no âmago da Bell Laboratories: o TRADIC. O mesmo inovou em diversos...",
+            "link":"page-content/tradic.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Semicondutores",
+            "autor": "Ferdinand Braun",
+            "previa":"Seu emprego é importante na fabricação de componentes eletrônicos tais como diodos, transístores e outros de diversos graus de complexidade tecnológica, microprocessadores, e nanocircuitos...",
+            "link":"page-content/semicondutores.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Transistores",
+            "autor": "Shockley, Bardeen e Brattain",
+            "previa":"Entre as 10 invenções mais importantes do milênio, o transistor ocupa um lugar de destaque. Se hoje temos computadores pessoais, telefones celulares, e muitos outros equipamentos eletrônicos ...",
+            "link":"page-content/transistores.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Computador Digital Operacional",
+            "autor": "Williams e Kilburn",
+            "previa":"Oficialmente o primeiro computador eletrônico inglês foi construído entre 1946 e 1948 na Universidade de Manchester pelo Prof. F. C. Williams e pelo Prof. Tom Kilburn...",
+            "link":"page-content/computador-digital.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Electronic Discrete Variable Automatic Computer (EDVAC)",
+            "autor": "Ballistic Research Laboratory U. S.",
+            "previa":"[...]foi um dos primeiros computadores eletrônicos. Ao contrário do ENIAC, não era decimal, mas binários e foi o primeiro programa concebido para ser armazenado...",
+            "link":"page-content/edvac.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Whirlwind",
+            "autor": "Instituto de Tecnologia de Massachusetts (MIT)",
+            "previa":"É o primeiro computador que operava em tempo real, utilizada para a produção e exibição de vídeo, e o primeiro que não era simplesmente um substituto eletrônico dos mais velhos...",
+            "link":"page-content/whirlwind.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Eletronic Delay Storage Automatic Computer (EDSAC)",
+            "autor": "Maurice Wilkes",
+            "previa":"Os primeiros a utilizarem o conceito de programa armazenado foram o EDSAC – Eletronic Delay Storage Automatic Computer, construído na Inglaterra em 1949 e alguns meses depois o EDVAC – Eletronic Discrete Variable...",
+            "link":"page-content/edsac.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Memória de Núcleo Magnético",
+            "autor": "Jay Forreste",
+            "previa":"Duas pesquisas-chave para o seu desenvolvimento foram feitas por An Wang e Way-Dong Woo, em 1949, na Universidade de Harvard e por Jay Forrester, que trabalhava no projeto Whirlwind da MIT...",
+            "link":"page-content/memoria-nucleo-magnetico.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "SEAC",
+            "autor": "National Bureau of Standards (NBS)",
+            "previa":"O SEAC foi o único computador totalmente funcional disponível para o NBS e outras agências governamentais em 1950. As exigências sobre ele eram muito altas, e estava...",
+            "link":"page-content/seac.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Transistores de Junção",
+            "autor": "William Shockey",
+            "previa":"A era da eletrônica foi inaugurada em 1907, com a invenção da válvula tríodo por L. Forest, resultado do aperfeiçoamento da válvula diodo inventada por Flemeing poucos anos antes. Em 1951, SHOKLEY...",
+            "link":"page-content/transistores-juncao.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Universal Automatic Computer (UNIVAC)",
+            "autor": "Jonh Mauchly e J. Presper Eckert",
+            "previa":"O UNIVAC  (de UNIVersal Automatic Computer - Computador Automático Universal) foi o primeiro computador comercial fabricado e comercializado nos Estados Unidos. Era programado ajustando-se cerca de 6.000 chaves e conectando-se cabos a um painel...",
+            "link":"page-content/univac.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "IBM 701",
+            "autor": "International Business Corporation (IBM)",
+            "previa":"Em 1953, a IBM lançou o IBM 701, um computador revolucionário conhecido por Máquina Eletrônica de Processamento de Dados. Este computador representou muito para a evolução dos computadores IBM uma vez que...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 1,
+            "titulo": "Nixdorf Computer",
+            "autor": "Heinz Nixdorf",
+            "previa":"Heinz Nixdorf fundou Nixdorf Computers (então conhecido como Labor für Impulstechnik) em 1952. Seus primeiros produtos eram calculadoras eletrônicas, mas ele rapidamente desenvolveu computadores e, em meados da década de...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 0,
+            "titulo": "Bizmac",
+            "autor": "Arnold Spielberg",
+            "previa":"Em 1949, o Programa de Assistência Mútua - mais tarde conhecido como o Programa de Assistência Militar - foi iniciado pelos Estados Unidos para fornecer assistência militar e suprimentos a...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 1,
+            "titulo": "IBM 650",
+            "autor": "International Business Corporation (IBM)",
+            "previa":"O IBM 650 dispunha de uma memória de tambor organizada em palavras - Word - de dez dígitos decimais com sinal. A memória base tinha uma capacidade de 2.000 palavras - worlds -, mas podiam ...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 1,
+            "titulo": "UNIVAC I",
+            "autor": "Jonh Mauchly e J. Presper Eckert",
+            "previa":"Tratava-se de um sistema completo com impressoras de grande velocidade e leitores de fitas magnéticas como memória externa. Era um computador eletrônico baseado no sistema decimal, contendo 5.000 válvulas, o seu clock (relógio interno que dita o ritmo de ...",
+            "link":"page-content/univac-I.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "IBM 704",
+            "autor": "International Business Corporation (IBM)",
+            "previa":"Lançado três anos após o IBM 701. Tinha 4.096 palavras de memória de núcleos, instruções de 36 bits, e inovou com hardware de ponto flutuante O computador 704, da IBM, de 1956, foi um desenvolvido para cálculos de larga escala, primordialmente para fins ...",
+            "link":"page-content/ibm-704.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Uniprinter",
+            "autor": "Earl Masterson e J. Presper Eckert",
+            "previa":"Uniprinter, a primeira impressora de alta velocidade comercialmente disponível. A uniprinter era uma impressora de linha, capaz de imprimir 120 caracteres simultaneamente. As uniprinter foram vendidos como...",
+            "link":"page-content/uniprinter.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "IBM 726",
+            "autor": "International Business Corporation (IBM)",
+            "previa":"As fitas magnéticas utilizadas com o Sistema de Processamento de Dados 701 proporcionaram um método de alta velocidade de introdução e registro de massas de dados maiores do que eram possíveis através de um tubo de raios catódicos ou...",
+            "link":"page-content/ibm-726.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "UNIVAC 1103",
+            "autor": "Engineering Research Associates (ERA)",
+            "previa":"O UNIVAC 1103 ou ERA 1103, um sucessor do UNIVAC 1101 , era um sistema de computador projetado por Engineering Research Associates e construído pela corporação Remington Rand em outubro de 1953. Foi o primeiro computador para o...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 1,
+            "titulo": "Control Data Corporation (CDC)",
+            "autor": "Seymour Cray e William Norris",
+            "previa":"A Control Data Corporation (CDC) era uma empresa de supercomputadores. CDC era uma das nove companhias de computador principais dos Estados Unidos durante a maioria dos 1960s; Os outros eram a IBM, a Burroughs Corporation, a...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 0,
+            "titulo": "Digital Equipment Corporation (DEC)",
+            "autor": "Ken Olsen",
+            "previa":"Digital Equipment Corporation foi a companhia dos Estados Unidos pioneira na indústria de computadores.[1] É referida muitas vezes, dentro da indústria como DEC, mas o seu nome oficial foi sempre DIGITAL. Os seus produtos PDP e...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 0,
+            "titulo": "Memória Virtual",
+            "autor": "Ken Olsen",
+            "previa":"O conceito real de memória virtual é: gerenciar a memória de forma que os programas em execução no computador tenham um ambiente de memória unificada e contínua.",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 1,
+            "titulo": "NEAC 1101",
+            "autor": "Eiichi Goto",
+            "previa":"Em março de 1958, a NEC finalizou seu primeiro computador digital, o NEAC-1101. Esta máquina usou parâmetros, inventada por Eiichi Goto em 1954, e foi aperfeiçoada usando um sistema de acoplamento de transformador de...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 0,
+            "titulo": "NEAC 1102",
+            "autor": "SENAC",
+            "previa":"No Instituto de Pesquisa da Universidade de Tohoku de Comunicação Elétrica e dentro da NEC, surgiu uma necessidade para um computador de alto desempenho para cálculo científico e de engenharia, capaz...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 0,
+            "titulo": "Perceptron",
+            "autor": "Frank Rosenblatt",
+            "previa":"O Perceptron de Rosenblatt foi desenvolvido para lidar com o problema de reconhecimento de padrões. Este é um tipo de tarefa que os seres humanos fazem sem nenhum esforço aparente e de forma quase...",
+            "link":"page-content/a"
+        },
+        {
+            "binario": 0,
+            "titulo": "Circuitos Integrados",
+            "autor": "Geoffrey WA Dummer",
+            "previa":"Circuito integrado (ou simplesmente C.I.) é um circuito eletrônico que incorpora miniaturas de diversos componentes (principalmente transistores, diodos, resistores e capacitores), gravados em...",
+            "link":"page-content/circuitos-integrados.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "COBOL",
+            "autor": "Grace Hopper",
+            "previa":"O COBOL foi criado por um comitê de investigadores de várias instituições civis e governamentais durante o segundo semestre de 1959. As especificações eram em grande parte inspiradas na linguagem de programação FLOW-MATIC inventada...",
+            "link":"page-content/cobol.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "DEC PDP-1",
+            "autor": "Digital Equipamento Corporation (DEC)",
+            "previa":"Programmed Data Processor-1 ou PDP-1 foi criado pela Digital Equipamento Corporation (DEC), é considerado um dos primeiros minicomputadores a entrar em operação comercialmente. O PDP-1 logo se tornou a máquina preferida da...",
+            "link":"page-content/dec-pdp-1.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Atlas e Titan",
+            "autor": "Ferranti, Plessey e Universidade de Manchester",
+            "previa":"O computador atlas, quando foi construído em 1962 pela Ferranti, Plessey e Universidade de Manchester, foi considerado um supercomputador. De fato, de longe o mais poderoso computador da época. Dizia-se que...",
+            "link":"page-content/atlas-titan.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Mouse",
+            "autor": "Bill English",
+            "previa":"Embora tenha sido inventado por Bill English, a sua patente pertence a Douglas Engelbart, datando de 1970. Engelbart apresentou este periférico pela primeira vez em 9 de dezembro de 1968 denominando-o de...",
+            "link":"page-content/mouse.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Semi-Automatic Ground Environmet (SAGE)",
+            "autor": "SAGE",
+            "previa":"O SAGE, ou Semi-Automatic Ground Environmet, foi um gigantesco projeto de computação e redes norte-americano, iniciado nos anos 1950 e que ficou operacional a partir de 1961. Ele seria uma rede com os...",
+            "link":"page-content/semi-automatic.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Interface Gráfica",
+            "autor": "Ivan Edward Sutherland",
+            "previa":"Na interface gráfica existiu o Skechpad que ajudou no conceito da computação gráfica interativa, e interação entre maquina e humano. O sistema chamado de Skechpad desenvolvido por Ivan Edward Sutherland utilizava uma caneta óptica como...",
+            "link":"page-content/interface-grafica.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Basic",
+            "autor": "John George Kemeny e Tom Kurtzas",
+            "previa":"A linguagem Basic foi desenvolvida pelos matemáticos e Professores John George Kemeny e Tom Kurtzas, criada para fins didáticos, em Darthmouth College(Universidade localizada na cidade de Hanover, New Hampshire, Estados Unidos). Essa linguagem é uma...",
+            "link":"page-content/basic.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "IBM System/360",
+            "autor": "International Business Corporation (IBM)",
+            "previa":"Em 7 de Abril de 1964 lança pela IBM o IBM System/360 (S/360) uma família de mainframes ela foi a primeira a fazer uma distinção clara entre a arquitetura e a implementação...",
+            "link":"page-content/ibm-system.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "CDC 6600",
+            "autor": "Control Data Corporation (CDC)",
+            "previa":"CDC 6600 era um computador mainframe criado pela Control Data Corporation, e foi considerado o primeiro computador bem sucedido e oferecia um poder de processamento de cerca de 3 megaflops...",
+            "link":"page-content/cdc-6600.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Comutação de Pacotes",
+            "autor": "",
+            "previa":"Comutação de Pacotes é um tipo de comunicação de dados em redes. Em redes existem 2 tipos de comutação, comutação de Pacotes e de Circuitos. Comutação de Pacotes surgiu...",
+            "link":"page-content/comutacao-pacotes.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Touch Screen",
+            "autor": "E. A. Johnson",
+            "previa":"E. A. Johnson, em 1965 e também em 1968 produziu um artigo que descrevia essas ideias iniciais de uma tela sensível ao toque. Já em 1973 dois engenheiros do CERN(Organização Europeia para a Pesquisa Nuclear) Frank Beck e....",
+            "link":"page-content/touch-screen.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Memoria DRAM",
+            "autor": "Robert Heath Dennard",
+            "previa":"Memoria DRAM é um tipo de RAM ou como a sigla diz, Random Acess Memory(Memoria de Acesso Aleatorio) Que armazena cada bit de dados num condensador ou capacitor(componente que armazena...",
+            "link":"page-content/memoria-dram.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "ChatterBot ELIZA<",
+            "autor": "Joseph Weizenbaum",
+            "previa":"ELIZA foi o primeiro ChatterBot (programa de computador que tenta simular um ser humano na conversação com as pessoas) inventado, que foi criado em...",
+            "link":"page-content/eliza.htnl"
+        },
+        {
+            "binario": 0,
+            "titulo": "MUMPS",
+            "autor": "Neil Pappalardo",
+            "previa":"MUMPS ou Massachusetts General Hospital Utility Multi-Programming System (Sistema de multiprogramação do Hospital Geral de Massachusetts) é uma linguagem de programação focada na área de Saude, essa linguagem é de Paradigma do tipo....",
+            "link":"page-content/mumps.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Simula",
+            "autor": "Kristen Nygaard e Ole-Johan Dahl",
+            "previa":"É uma família de Linguagem de programação, projetadas para apoiar a simulação de eventos discretos , que foi criado por Kristen Nygaard e Ole-Johan Dahl no Centro Norueguês de Computação em...",
+            "link":"page-content/simula.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Logo",
+            "autor": "Bobrow, Feurzeig, Papert e Solomon",
+            "previa":"Logo foi uma linguagem de programação criado para fins educacionais criada em 1967 Daniel G. Bobrow, Wally Feurzeig, Seymour Papert e Cynthia Solomon, na linguagem as suas raízes principais são inteligência artificial. O nome LOGO é...",
+            "link":"page-content/logo.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Forth",
+            "autor": "Charles Moore",
+            "previa":"Forth foi uma linguagem de programação, inventada por Charles Moore , essa linguagem que estava em estado de desenvolvimento por continuo desde 1968 e que foi exposto pela...",
+            "link":"page-content/forth.html"
+        },
+        {
+            "binario": 1,
+            "titulo": "Circuitos SSI, MSI, LSI e VLSI",
+            "autor": "",
+            "previa":"OS primeiros AT 80286 receberam de herança dos XT’s os chips, ou melhor, dizendo, circuitos integrados SSI. A partir de então vários outros surgiram, como os circuitos MSI, LSI e VLSI...",
+            "link":"page-content/circuitos-ssi.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Evolução das Redes",
+            "autor": "Vários Inventores",
+            "previa":"Compreender sobre a evolução das redes e obter o conhecimento de como elas construíram o nosso mundo, é uma etapa que nos leva a 1960, enquanto ainda existiam as telas de fundo preto e letra verde ou branca...",
+            "link":"page-content/evolucao-redes.html"
+        },
+        {
+            "binario": 0,
+            "titulo": "Computação Móvel",
+            "autor": "Histórico",
+            "previa":"A história da computação móvel é confusa e nebulosa. Até mesmo a própria definição de “computação móvel” e “dispositivo móvel” está até hoje sujeita a debates. Mas, assim como muitas tecnologias na área de computação e...",
+            "link":"page-content/computacao-movel.html"
+        }
+        
+    ]
+}

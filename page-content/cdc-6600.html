@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" content="">
+    <meta name="description" content="Museu Digital da Computação"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords" content="museu, digital, computação, tecnologia, história, gerações, invenções, museum, digital, computer, technology, history, generations, inventions" />
+    <meta name="author" content="1º Período Sistemas de Informação - ITPAC Araguaína" />
+    <title>CDC 6600 - Museu Digital da Computação</title>
+    <!-- Favicons -->
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <!-- Fonts -->
+    <link href="../fonts/faw/faw.css" media="all" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS -->
+    <link href="../css/reset.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/header.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/page-header.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/page-content/page-content.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/footer.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/materialize.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/Roboto.css" media="all" rel="stylesheet" type="text/css">
+  </head>
+<body>
+  <header class="page-header">
+    <div class="navbar">
+      <div class="back">
+        <a href="javascript:window.history.go(-1)">
+          <i class="material-icons">keyboard_return</i>
+          <span>Voltar para o ínicio</span>
+        </a>
+      </div>
+      <div class="container clearfix">
+        <h1>CDC 6600</h1>
+        <h3>Control Data Corporation (CDC)</h3>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+
+  <article>
+    <div class="container clearfix">
+      <p class="first" style="margin-top: 80px;">CDC 6600 era um computador mainframe criado pela Control Data Corporation, e foi considerado o primeiro computador bem sucedido e oferecia um poder de processamento de cerca de 3 megaflops(Corresponde a 〖10〗^6 operações por segundo), um valor de processamento de dados impressionante naquela época e considerado um dos mais velozes naquela época(Clock de 100 nanosegundos), Tambem um dos primeiros (super)computadores a usar refrigeração baseado em um sistema de Gás Freon Pressurizado. Criado por Seymour Roger Cray (Considerado o “Pai dos supercomputadores”)nos laboratórios da Control Data Corporation próximo de Chippewa Falls, Winsconsin, vendeu mais de $7 milhões, e durante os anos de 1964 até 1965 foi considerado o supercomputador mais veloz do mundo.</p>
+
+    </div>
+  </article>
+  <a href="#" class="scrollTop"><i class="material-icons">keyboard_arrow_up</i></a>
+
+  <footer class="footer">
+    <div class="container clearfix">
+      <span class="loved">Desenvolvido com<i class="fa fa-heart"></i>pelo 1º Período do curso de Sistemas de Informação ITPAC</span>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>if (!window.jQuery) { document.write('<script src="https://code.jquery.com/jquery-2.1.4.min.js"><\/script>'); }</script>
+  <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('.scrollTop').fadeIn();
+            } else {
+                $('.scrollTop').fadeOut();
+            }
+        });
+        $('.scrollTop').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+    });
+  </script><!-- Scroll to top -->
+  <script src="../js/materialize.min.js"></script>
+</body>
+</html>
