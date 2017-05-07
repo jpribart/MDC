@@ -3,11 +3,14 @@
   margin-top: -620px;
   text-align: center;
 }
+
 div .material-icons {
   font-size: 4.2em;
   color: #142a38;
   margin-top: 60px;
+  display: block;
 }
+
 div h2 {
   font-weight: 700;
   font-size: 3.4em;
@@ -56,6 +59,7 @@ div h2 {
 
 .search-box input[type=text]:focus:not([readonly]) {
     border-bottom: 0px;
+    background-color: #fff;
     box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.18);
     -webkit-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.18);
     -moz-box-shadow: 3px 4px 50px rgba(0, 0, 0, 0.18);

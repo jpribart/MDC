@@ -9,9 +9,15 @@
     width: 15%;
     height: 120px;
     padding: 0px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .back a {
@@ -20,6 +26,8 @@
 
 .back .material-icons {
 	font-size: 1.8em;
+	margin-top: 0px;
+	display: flex;
 }
 
 .back span {
@@ -44,9 +52,4 @@ header h3 {
 	color: #0b4773;
 	font-weight: 500;
 	font-size: 1.6em;
-}
-
-.fluid-logo {
-	padding-top: 51px;
-	float: right;
 }
