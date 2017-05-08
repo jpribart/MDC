@@ -8,7 +8,7 @@
         <meta name="author" content="1º Período Sistemas de Informação - ITPAC Araguaína" />
         <title>Museu Digital da Computação - Início</title>
         <!-- Favicons -->
-        <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" href="images/preloading.gif">
         <!-- Fonts -->
         <link href="fonts/faw/faw.css" media="all" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -144,52 +144,74 @@
                 </footer>
             </div>
         </div>
-        <!-- Scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script>if (!window.jQuery) {
-    document.write('<script src="https://code.jquery.com/jquery-2.1.4.min.js"><\/script>');
-}</script>
-        <!--
-        <script src="js/timelineData.js"></script>
-        -->
-        <script src="js/timeline.js"></script>
-        <script src="js/menu.js"></script>
-        <script>
-$(document).ready(function () {
-    $(window).scroll(function () {
-        searchBox = $(window).scrollTop();
-        if (searchBox > 1100) {
-            $('.search-box').fadeIn();
-        } else {
-            $('.search-box').fadeOut();
+
+        <div id="preloading" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 70%;">
+            <img src="images/preloading.gif" style="width: 4%;">
+        </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>if (!window.jQuery) {
+        document.write('<script src="https://code.jquery.com/jquery-2.1.4.min.js"><\/script>');
+    }</script>
+    <script>
+        function id (element) {
+            return document.getElementById(element);
         }
-    });
-});
-        </script><!-- Search-box -->
-        <script>
-            $('#scrollToTimeline').click(function () {
-                $.scrollTo($document.getElementById('start'));
+
+        function hide (element) {
+            id(element).style.display = 'none';
+        }
+
+        window.onload = function () {
+            id('app').style.display = 'block';
+            hide('preloading');
+        }
+    </script><!-- Preloading -->
+    <script>
+        hide('app');
+    </script>
+    <!--
+    <script src="js/timelineData.js"></script>
+    -->
+    <script src="js/timeline.js"></script>
+    <script src="js/menu.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                searchBox = $(window).scrollTop();
+                if (searchBox > 1100) {
+                    $('.search-box').fadeIn();
+                } else {
+                    $('.search-box').fadeOut();
+                }
             });
-        </script><!-- Btn Vamos lá! -->
-        <script>
-            $(document).ready(function () {
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 1200) {
-                        $('.scrollTop').fadeIn();
-                    } else {
-                        $('.scrollTop').fadeOut();
-                    }
-                });
-                $('.scrollTop').click(function () {
-                    $("html, body").animate({
-                        scrollTop: 0
-                    }, 700);
-                    return false;
-                });
+        });
+    </script><!-- Search-box -->
+    <script>
+        $('#scrollToTimeline').click(function () {
+            $.scrollTo($document.getElementById('start'));
+        });
+    </script><!-- Btn Vamos lá! -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 1200) {
+                    $('.scrollTop').fadeIn();
+                } else {
+                    $('.scrollTop').fadeOut();
+                }
             });
-        </script><!-- Scroll to top -->
-        <script src="js/materialize.min.js"></script>
-        <script src="js/vue.js"></script>
-        <script src="js/app.js"></script>
-    </body>
+            $('.scrollTop').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 700);
+                return false;
+            });
+        });
+    </script><!-- Scroll to top -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/app.js"></script>
+</body>
 </html>

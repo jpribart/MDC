@@ -24,10 +24,11 @@
 	color: #fff;
 }
 
-.back .material-icons {
+.pages-creations .back .material-icons {
 	font-size: 1.8em;
 	margin-top: 0px;
 	display: flex;
+	color: #0b4773;
 }
 
 .back span {

@@ -104,7 +104,7 @@ var demo = new Vue({
                     "tags": "computador inovador, Exercito Americano, Estados Unidos",
                     "imagens": [
                         {
-                            "index": 6,
+                            "index": 1,
                             "arquivo": "kenandden.jpg",
                             "legenda": "Tradic",
                             "autor": "http://www.chip.cz/obrazky/pages/10045/kenandden",
@@ -143,7 +143,7 @@ var demo = new Vue({
                     "imagens": [
                         {
                             "index": 1,
-                            "arquivo": "InternalIntegratedCircuit2.JPG",
+                            "arquivo": "InternalIntegratedCircuit2.jpg",
                             "legenda": "Arquitetura interna de um microprocessador",
                             "autor": "Angeloleithold",
                             "ano": 2004
@@ -202,7 +202,7 @@ var demo = new Vue({
                     "imagens": [
                         {
                             "index": 1,
-                            "arquivo": "lossy-page1-748px-SketchpadDissertation-Fig1-2.TIF",
+                            "arquivo": "lossy-page1-748px-SketchpadDissertation-Fig1-2.jpg",
                             "legenda": "Sketchpad",
                             "autor": "Ivan Sutherland",
                             "ano": 1963
@@ -240,7 +240,7 @@ var demo = new Vue({
                     "imagens": [
                         {
                             "index": 5,
-                            "arquivo": "800px-IBM360-65-1.corestore.JPG",
+                            "arquivo": "800px-IBM360-65-1.corestore.jpg",
                             "legenda": "System 360",
                             "autor": "ArnoldReinhold",
                             "ano": 2004
@@ -259,7 +259,7 @@ var demo = new Vue({
                     "imagens": [
                         {
                             "index": 1,
-                            "arquivo": "CDC_6600.jc",
+                            "arquivo": "CDC_6600.jc.jpg",
                             "legenda": "supercomputador CDC 6600",
                             "autor": "Jitze Couperus",
                             "ano": 2010
@@ -278,7 +278,7 @@ var demo = new Vue({
                     "imagens": [
                         {
                             "index": 1,
-                            "arquivo": "74753443016172520.JPEG",
+                            "arquivo": "74753443016172520.jpg",
                             "legenda": "Primeiro toque",
                             "autor": "Bill Buxton",
                             "ano": 2013
@@ -297,7 +297,7 @@ var demo = new Vue({
                     "imagens": [
                         {
                             "index": 1,
-                            "arquivo": "750px-Robert_Dennard.JPG",
+                            "arquivo": "750px-Robert_Dennard.jpg",
                             "legenda": "Criador da DRAM",
                             "autor": "Fred Holland",
                             "ano": 2009
@@ -316,7 +316,7 @@ var demo = new Vue({
                     "imagens": [
                         {
                             "index": 1,
-                            "arquivo": "PIC20021211110167299.JPEG",
+                            "arquivo": "PIC20021211110167299.jpg",
                             "legenda": "ChatterBot ELIZA",
                             "autor": "Amit Mathur",
                             "ano": 2015
@@ -379,22 +379,121 @@ var demo = new Vue({
                             "ano": 2010
                         }
                     ]
+                },
+                {
+                    "index": 1,
+                    "grupo": 6,
+                    "invencao": "Microsoft HoloLens",
+                    "inventor": "Microsoft",
+                    "titulo": "Microsoft HoloLens: o primeiro computador holográfico autônomo",
+                    "conteudo": "<p>Primeiro computador holográfico autônomo, desenvolvido pela Microsoft e sendo apresentado para o mundo em 21 de janeiro de 2015. Sendo ele um óculos que desnecessitaria de qualquer smartphone ou computador para poder funcionar. Ele possui a capacidade de que o usuário interaja e se envolva com seus conteúdos digitais, mapeando todo o ambiente usando uma câmera, um conjunto de sensores e processadores, que ainda são capazes de entender vozes e gestos.  Ele é um dispositivo completo, que dar liberdade de movimentos para o usuário por ele não possuir nenhum fio. Além de que ele garante um som de alta performance.</p>img.data.1<p>O produto possui uma GPU, CPU e uma HPU (Holographic Proccesing Unit), fornecendo a possibilidade de você transformar a forma de se criar, comunicar, explorar e se conectar. O HoloLens não é um computador normal e sim uma máquina de realidade aumentada que rodara com o Windows 10 e outros aplicativos feitos exclusivamente para ele. Capaz de criar em 3D uma área de trabalho flutuante, o gadget usando a realidade aumentada cria sobre o que é visto na vida real camadas de conteúdos. Isso trará aos desenvolvedores a chance de criar grandes experiências usando todos os aplicativos originais da Microsoft.</p><p>Nas redes sociais, como por exemplo Skype, poderão ser feito vídeo chamadas, e o usuário tem a opção de poder inverter o campo de visão, dando a possibilidade de a outra pessoa poder ver o que ele está vendo.</p>",
+                    "tags": "primeiro computador holográfico;óculos de realidade aumentada;",
+                    "imagens": [
+                        {
+                            "index": 1,
+                            "arquivo": "in-addition-to-cameras-hololens-contains-other-sensors-inclu_grbg.1280.jpg",
+                            "legenda": "Headset de realidade virtual da Microsoft",
+                            "autor": "Abílio Rodrigues ",
+                            "ano": 2016
+                        }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "grupo": 6,
+                    "invencao": "Skype",
+                    "inventor": "Janus Friis e Niklas Zennstrom",
+                    "titulo": "Skype: o primeiro grande software de chamada de voz e vídeo",
+                    "conteudo": "<p>Skype o software que revolucionou a comunicação em 2003,permitindo a comunicação pela Internet através de conexões de voz e vídeo, criado por  Niklas Zennstrom e Janus Friis . O Skype foi lançado no ano de 2003. Em 2005 foi vendido para a empresa eBay e pertence, desde maio de 2011, à Microsoft. Atualmente, é o aplicativo para computadores mais famoso do mercado e possui cerca de 320 milhões de usuários espalhados pelo mundo.</p>img.data.1<p>A criação do aplicativo tem a intenção de aproximar as pessoas e grupos, sem se importa com a distância. Com os recursos de vídeo, voz e SMS o usuário pode desfrutar de experiências com quem desejar e de qualquer lugar. O Skype possibilita que o usuário possa usá-lo no computador, no smartphone e também em uma TV com o aplicativo instalado. Para iniciar no aplicativo, você não pagará nada. Com ele você poderá fazer ligações entre um Skype e um telefone fixo, ou entre um telefone móvel, além de chamadas de conferência, ou pode acontecer o contrário, que seria um telefone convencional ligar para o Skype.</p>",
+                    "tags": "rede social;vídeo chamada;primeiro grande software de video chamada;",
+                    "imagens": [
+                        {
+                            "index": 1,
+                            "arquivo": "1200px-Skype_logo.svg",
+                            "legenda": "Logo do Skype de 2016",
+                            "autor": "Microsoft Skype Division",
+                            "ano": 2016
+                        }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "grupo": 6,
+                    "invencao": "Facebook",
+                    "inventor": "Mark Zuckerberg, Eduardo Saverin, Dustin Moskovitz e Chris Hughes",
+                    "titulo": "Facebook: a maior rede social do mundo",
+                    "conteudo": "<p>Lançado em 4 de fevereiro de 2004, o Facebook um website de relacionamento social, que foi fundado por Mark Zuckerberg, um antigo estudante de Harvard. Inicialmente o uso do Facebook era restrita apenas para estudantes de Harvard. Que em seguida se expandiu para Instituto de Tecnologia de Massachusetts, a Universidade de Boston e a varias escolas. E no decorrer do ano seguinte foram-se adicionando outras universidades.</p>img.data.1<p>Hoje o Facebook possui aproximadamente 1,59 bilhões de usuários ficando em primeiro lugar no ranking das maiores redes sociais de acordo com o portal de estudos e estatísticas Statista, são referentes a janeiro de 2017.</p>",
+                    "tags": "maior rede social do mundo;site de relacionamento;",
+                    "imagens": [
+                        {
+                            "index": 1,
+                            "arquivo": "Facebook_New_Logo_(2015).svg",
+                            "legenda": "logotipo do Facebook lançado em 2015 ",
+                            "autor": "Facebook Inc.",
+                            "ano": 2015
+                        }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "grupo": 6,
+                    "invencao": "YouTube",
+                    "inventor": "Chad Hurley, Steve Chen e Jawed Karim",
+                    "titulo": "YouTube: o maior e mais utilizado site de videos",
+                    "conteudo": "<p>Criado em fevereiro de 2005 por três ex-funcionários do  Pay Pal  e  adquirida pela  Google Inc.  em troca de 1.650 milhões de  dólares em 4  outubro de  2006, o YouTube é o site de vídeos on-line mais popular do mundo, permitindo que milhões de pessoas descubram, assistam e compartilhem vídeos criados originalmente . Baseado no Adobe Flash e também HTML5, o YouTube usa um leitor on-line para servir seu conteúdo, suportando os navegadores mais importantes.</p>img.data.1<p>É muito popular graças à possibilidade de hospedar vídeos pessoais facilmente. Hospeda uma variedade de clipes de filmes, programas de TV  e  vídeos de música . Apesar regras contra o upload de vídeos do YouTube com  copyright , existe este material em abundância, bem como conteúdo  amador  como  vídeo  blogs . Links para vídeos do YouTube também pode ser incorporado em  blogs  e sites pessoais usando  API  ou incorporação de algum código  HTML .</p>",
+                    "tags": "site de vídeos; compartlhamento de videos;",
+                    "imagens": [
+                        {
+                            "index": 1,
+                            "arquivo": "YouTube-logo-full_color.png",
+                            "legenda": "Logotipo do YouTube",
+                            "autor": "YouTube",
+                            "ano": 2015
+                        }
+                    ]
+                },
+                {
+                    "index": 1,
+                    "grupo": 6,
+                    "invencao": "Internet das coisas",
+                    "inventor": "Instituto de Tecnologia de Massachusetts (MIT)",
+                    "titulo": "Internet das coisas, o conceito de objetos inteligentes",
+                    "conteudo": "<h3>Internet das coisas</h3><p>A IoT (Internet of Things, Internet das coisas), é um novo conceito de interagir com objetos de forma inteligente por meio de uma rede sem fio. Isso pode parecer uma declaração arrojada, mas considere o impacto que a Internet já teve na educação, na comunicação, nos negócios, na ciência, no governo e na humanidade. Claramente, a Internet é uma das criações mais importantes e poderosas de toda a história humana. Agora, considere que a IoT representa a próxima evolução da Internet, dando um grande salto na capacidade de coletar, analisar e distribuir dados que nós podemos transformar em informações, conhecimento e, por fim, sabedoria.</p><p>No ponto de vista prático a IOT é  aplicada em diversas modalidades como: médica educacional, segurança, tráfego Aéreo, agricultura, penitenciária,  rodoviário,           portos, navegação marítima,  veículos autônomos, infraestrutura pública,  viabilização e etc...</p><p>Mesmo assim, existem várias barreiras que ameaçam diminuir o desenvolvimento da IoT, incluindo a transição para IPv6, ter um conjunto comum de padrões e desenvolver fontes de energia para milhões, até mesmo bilhões, de sensores minúsculos. No entanto, à medida que empresas, governos, organizações de normas técnicas e instituições acadêmicas trabalham juntos para solucionar esses desafios, a IoT continuará a progredir. </p><p>Para que um sistema IoT seja seguro é preciso estabelecer quais são os objetivos de segurança desejáveis. Existem ao menos três grupos de objetivos desejáveis para segurança em IoT: Confidencialidade: neste requisito os dados transmitidos podem somente ser “escutados” e entendidos por elementos participantes da comunicação, isto é, elementos sem autorização sabem que ocorreu comunicação, mas não sabem o conteúdo da comunicação: Integridade: aqui, os dados não podem ser alterados por elementos da rede sem devida autorização. É comum que hackers adulterem mensagens sem deixar vestígios e a quebra da integridade passe despercebida. De modo geral, implementa-se integridade criptografando as mensagens e verificando-as no lado do receptor; Disponibilidade: deseja-se manter o sistema sempre disponível e seguros contra ataques maliciosos. Entretanto, as redes sem fio estão sujeitas a interferências de comunicação e “hackers” podem agir nesta vulnerabilidade. Neste sentido, o sistema IoT deve ser capaz de identificar e tratar problemas como este para evitar ataques Denial of Service (DoS). Todo o contexto da IoT ainda existe um ponto que em termos precisa caminhar com a ética , na internet das coisas os surgimentos de tecnologias que não necessita de indivíduos a controlando , que são tecnologias evoluídas através de placa controladoras inteligentes que estão cada vez mais na automação veicular e em processos cirúrgicos ,que por ser maquinas também erram por serem desenvolvidas por humanos ,tais erros podem gerar acidentes que tem que ser revisados por leis que visam o culpado de tal ação .No brasil há alguns artigos do ponto de vista jurídico, como o conceito de Iot por aqui ainda é novidade ,temos em lei a lei apenas o termo “maquina a maquina”. </p><p>Art. 38 da Lei 12.715, de 17 de setembro de 2012– Taxa de Fiscalização de Instalação das estações móveis do SMP e outras modalidades de serviço de telecomunicações que integrem sistemas de comunicação máquina a máquina no valor de R$5,68 e Taxa de Fiscalização de Funcionamento anual de 33% do valor da TFI. </p> <p>Decreto 8.234, de 2 de maio de 2014 – Definição de sistemas de comunicação máquina a máquina: “os dispositivos que, sem intervenção humana, utilizem redes de telecomunicações para transmitir dados a aplicações remotas com o objetivo de monitorar, medir e controlar o próprio dispositivo, o ambiente ao seu redor ou sistemas de dados a ele conectados por meio dessas redes”. </p><p>Portaria MC nº 1.420, de 8 de outubro de 2014 – Câmara de Gestão e Acompanhamento do Desenvolvimento de Sistemas de Comunicação Máquina a Máquina – função de promoção e coordenação da cooperação técnica entre prestadoras de serviços de telecomunicações, fabricantes de equipamentos do setor de telecomunicações e entidades de ensino e pesquisa. • Portaria MC nº 2.006, de 10 de maio de 2016 – altera a Prt. 1.420 para incluir representantes da Câmara e do Senado na Câmara de Gestão e Acompanhamento ... acrescentando “e Internet das Coisas” no nome da Câmara com sigla “Câmara IoT”. </p><p>Portaria MC nº 5.507, de 30 de novembro de 2016 – altera a Prt. 1.420 em procedimentos de nomeação de membros da Câmara IoT, referindo-se, no seu texto, entretanto, somente a comunicação máquina a máquina. </p> <p>Plano Nacional de Internet das Coisas (consulta pública do MCTIC com 2.288 contribuições) </p><p>Em termos de prototipagem que são os controladores temos como os mais populares que são: Arduino(versões) e o Raspberry PI(versões). </p><p>Arduino, é uma plataforma de prototipagem eletrônica de hardware livre e de placa única, projetada com um micro controlador ATmel AVR com suporte de entrada/saída embutido, uma linguagem de programação padrão, a qual tem origem em Wiring, e é essencialmente C/C++. O objetivo do projeto é criar ferramentas que são acessíveis, com baixo custo, flexíveis e fáceis de se usar por artistas e amadores. Principalmente para aqueles que não teriam alcance aos controladores mais sofisticados e de ferramentas mais complicadas. </p>img.data.1<p>Raspberry Pi é um computador do tamanho de um cartão de crédito, que se conecta a um monitor de computador ou TV, e usa um teclado e um mouse padrão, desenvolvido no Reino Unido pela Fundação Raspberry PI. Todo o hardware é integrado numa única placa. O principal objetivo é promover o ensino em Computação  básica em escolas. </p>img.data.2<h4>Referências </h4><p>SANTOS, Marco Aurélio da Silva. 'Inteligência Artificial'; Brasil Escola. Disponível em <http://brasilescola.uol.com.br/informatica/inteligencia-artificial.htm>. Acesso em 28 de abril de 2017. </p><p>Atzori, L., Iera, A., and Morabito, G. (2010). The Internet of Things: A survey. Computer Networks, 54(15):2787–2805. </p><p>Balzarotti, D., Cova, M., Felmetsger, V., Jovanovic, N., Kirda, E., Kruegel, C., and Vigna, G. (2008). Saner: Composing static and dynamic analysis to validate sanitization in web applications. In IEEE Symposium on Security and Privacy, pages 387–401. IEEE. </p><p>Lattner, C. and Adve, V. S. (2004). LLVM: A compilation framework for lifelong program analysis & transformation. In CGO, pages 75–88. IEEE. </p>      </p> E preciso estabelecer quais são os objetivos de segurança desejáveis(IoT)-Por Fernando Palma</p>",
+                    "tags": "Internet of Things;Internet das coisas;segurança em internet das coisas ; prototipos;micro controladores;Arduino;Raspberry;Confidencialidade, integridade e disponibilidade em Internet das coisas;internet das coisas e areas afins;",
+                    "imagens": [
+                        {
+                            "index": 1,
+                            "arquivo": "arduino.jpg",
+                            "legenda": "figura 1, arduino",
+                            "autor": "Tiki Shabudin",
+                            "ano": 2014
+                        },
+                        {
+                            "index": 2,
+                            "arquivo": "raspberry.jpg",
+                            "legenda": "figura 2, raspberry",
+                            "autor": "Ronivon Rony",
+                            "ano": 2013
+                        }
+                    ]
                 }
             ]
         },
         pageView: 0,
-        pageContent: null
+        pageContent: {
+
+        }
 
     },
     created: function () {
         this.curlStart()
     },
     watch: {
-        currentBranch: 'fetchData',
+
     },
     filters: {
         truncate: function (string) {
-            return string.substring(0, 160) + '...';
+            return string.substring(0, 200) + '...';
         },
         formatDate: function (v) {
             return v.replace(/T|Z/g, ' ')
@@ -424,42 +523,33 @@ var demo = new Vue({
             }
 
             string = string.split(' ').join('-');
-            return '#/' + string.toLowerCase()
+            return '#/pages/' + string.toLowerCase()
         }
     },
     methods: {
-        fetchData: function () {
-            var xhr = new XMLHttpRequest()
-            var self = this
-            xhr.open('GET', apiURL)
-            xhr.onload = function () {
-                var jsonO = JSON.parse(xhr.responseText);
-                self.storage = jsonO;
-
-            }
-            xhr.send();
-        },
         showview: function (view, pageid) {
+
             this.pageView = view;
+            this.pageContent = JSON.parse(JSON.stringify(this.storage.pages[pageid]));
             this.pageview(pageid);
-            this.pageContent = this.storage.pages[pageid];
+
         },
         pageview: function (a) {
-            if (this.storage.pages[a].render == false) {
-                var img = null;
-                var page = this.storage.pages[a];
-                for (var i in page.imagens) {
-                    img = this.imgprepare(page.imagens[i].arquivo, page.imagens[i].legenda, page.imagens[i].autor, page.imagens[i].ano);
-                    this.storage.pages[a].conteudo = this.imgrender(page.conteudo, img, page.imagens[i].index);
-                }
-                this.storage.pages[a].render == true;
+
+            var img = null;
+            var page = this.pageContent;
+            for (var i in page.imagens) {
+                img = this.imgprepare(page.imagens[i].arquivo, page.imagens[i].legenda, page.imagens[i].autor, page.imagens[i].ano);
+                this.pageContent.conteudo = this.imgrender(this.pageContent.conteudo, img, page.imagens[i].index);
             }
-            return this.storage.pages[a].conteudo;
+
+
+            console.log(this.pageContent);
         },
 
         imgprepare: function (arquivo, legenda, autor, ano) {
             var imgDir = 'images';
-            var output = "<div class='img-data' style=''>";
+            var output = "<div class='img-data'>";
             output += "<img src='" + imgDir + "/" + arquivo + "' title='Fotografia: " + autor + "'>";
             output += "<p style='font-size: 1.2em; font-style: italic; line-height: 22px; margin-bottom: 50px;'>Foto: " + legenda + ", " + autor + ", " + ano + "</p>";
             output += "</div>";
@@ -470,23 +560,24 @@ var demo = new Vue({
             return content.replace(index, imgTag);
         },
         curlStart: function () {
-            
+
             var locationurl = window.location.href;
-            var hrefurl = locationurl.split("#/");
+            var hrefurl = locationurl.split("#/pages/");
             var id = hrefurl[1];
             var curl;
             if (id == null) {
                 this.pageView = 0;
             } else {
-                for (var i in this.storage.pages){
+                for (var i in this.storage.pages) {
                     curl = this.$options.filters.curl(this.storage.pages[i].invencao);
-                    curl = curl.split("#/");
+                    curl = curl.split("#/pages/");
                     curl = curl[1];
-                    if (id  == curl){
+                    if (id == curl) {
                         this.showview(1, i);
+                        $(window).scrollTop();
                         break;
                     }
-                    
+
                 }
             }
 
